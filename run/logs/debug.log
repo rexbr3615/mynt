@@ -1,28 +1,28 @@
-[23jun.2026 01:42:46.001] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.200, --assetIndex, 17, --assetsDir, C:\\Users\\guilherme\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.200, --fml.neoFormVersion, 20240808.144430]
-[23jun.2026 01:42:46.010] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
-[23jun.2026 01:42:46.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[23jun.2026 01:42:46.093] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
-[23jun.2026 01:42:46.172] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
-[23jun.2026 01:42:46.196] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[23jun.2026 01:42:46.209] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\guilherme\IdeaProjects\mynt\run
-[23jun.2026 01:42:46.210] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\guilherme\IdeaProjects\mynt\run\mods
-[23jun.2026 01:42:46.212] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\guilherme\IdeaProjects\mynt\run\config
-[23jun.2026 01:42:46.212] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\guilherme\IdeaProjects\mynt\run\config\fml.toml
-[23jun.2026 01:42:46.446] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates mynt%%C:\Users\guilherme\IdeaProjects\mynt\build\classes\java\main;mynt%%C:\Users\guilherme\IdeaProjects\mynt\build\resources\main from env
-[23jun.2026 01:42:46.479] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{mynt=[C:\Users\guilherme\IdeaProjects\mynt\build\classes\java\main, C:\Users\guilherme\IdeaProjects\mynt\build\resources\main]}]
-[23jun.2026 01:42:46.500] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
-[23jun.2026 01:42:46.541] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[23jun.2026 01:42:47.012] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[23jun.2026 01:42:47.116] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
-[23jun.2026 01:42:47.120] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
-[23jun.2026 01:42:47.124] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
-[23jun.2026 01:42:47.127] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
-[23jun.2026 01:42:47.131] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
-[23jun.2026 01:42:47.135] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.0
-[23jun.2026 01:42:47.139] [main/INFO] [EARLYDISPLAY/]: Trying GL version 3.3
-[23jun.2026 01:42:47.143] [main/INFO] [EARLYDISPLAY/]: Trying GL version 3.2
-[23jun.2026 01:42:47.146] [main/ERROR] [EARLYDISPLAY/]: Failed to find any valid GLFW profile. Trying 4.6: GLFW error: [0x10006]WGL: The driver does not appear to support OpenGL
-[23jun.2026 01:42:47.153] [main/ERROR] [EARLYDISPLAY/]: ERROR DISPLAY
+[30jun.2026 01:19:52.751] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.200, --assetIndex, 17, --assetsDir, C:\\Users\\guilherme\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.200, --fml.neoFormVersion, 20240808.144430]
+[30jun.2026 01:19:52.784] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[30jun.2026 01:19:52.789] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[30jun.2026 01:19:52.885] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[30jun.2026 01:19:52.990] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[30jun.2026 01:19:53.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[30jun.2026 01:19:53.164] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\guilherme\IdeaProjects\mynt\run
+[30jun.2026 01:19:53.166] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\guilherme\IdeaProjects\mynt\run\mods
+[30jun.2026 01:19:53.170] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\guilherme\IdeaProjects\mynt\run\config
+[30jun.2026 01:19:53.174] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\guilherme\IdeaProjects\mynt\run\config\fml.toml
+[30jun.2026 01:19:53.667] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates mynt%%C:\Users\guilherme\IdeaProjects\mynt\build\classes\java\main;mynt%%C:\Users\guilherme\IdeaProjects\mynt\build\resources\main from env
+[30jun.2026 01:19:53.699] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{mynt=[C:\Users\guilherme\IdeaProjects\mynt\build\classes\java\main, C:\Users\guilherme\IdeaProjects\mynt\build\resources\main]}]
+[30jun.2026 01:19:53.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[30jun.2026 01:19:53.807] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[30jun.2026 01:19:54.687] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[30jun.2026 01:19:54.948] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
+[30jun.2026 01:19:54.954] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
+[30jun.2026 01:19:54.959] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
+[30jun.2026 01:19:54.964] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
+[30jun.2026 01:19:54.970] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
+[30jun.2026 01:19:54.974] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.0
+[30jun.2026 01:19:54.978] [main/INFO] [EARLYDISPLAY/]: Trying GL version 3.3
+[30jun.2026 01:19:54.982] [main/INFO] [EARLYDISPLAY/]: Trying GL version 3.2
+[30jun.2026 01:19:54.989] [main/ERROR] [EARLYDISPLAY/]: Failed to find any valid GLFW profile. Trying 4.6: GLFW error: [0x10006]WGL: The driver does not appear to support OpenGL
+[30jun.2026 01:19:54.997] [main/ERROR] [EARLYDISPLAY/]: ERROR DISPLAY
 Failed to initialize the mod loading system and display.
 
 

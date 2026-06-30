@@ -29,6 +29,14 @@ public class FileUtils {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
+
+
+
+
+
+
+
+    /*
     public static void writeToFile(@NotNull File file, boolean append, String... text) throws IOException {
         FileOutputStream fo = new FileOutputStream(file, append);
         OutputStreamWriter os = new OutputStreamWriter(fo, StandardCharsets.UTF_8);
@@ -198,4 +206,5 @@ public class FileUtils {
         IOUtils.closeQuietly(zipFile);
     }
 
+     */
 }

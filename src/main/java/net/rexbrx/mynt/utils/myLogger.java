@@ -18,6 +18,6 @@ public class myLogger {
     }
 
     public static void myError (String Input) {
-        System.out.println("[ERROR]:" + Input);
+        System.err.println("[ERROR]:" + Input);
     }
 }
