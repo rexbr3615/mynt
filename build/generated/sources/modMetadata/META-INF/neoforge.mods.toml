@@ -3,7 +3,7 @@ loaderVersion = "[4,)" #mandatory
 license = "All Rights Reserved"
 [[mods]] #mandatory
 modId = "mynt" #mandatory
-version = "2.0.0" #mandatory
+version = "2.0.2" #mandatory
 displayName = "mynt" #mandatory
 authors = "RexbrX" #optional
 logoFile = "mynt.png"

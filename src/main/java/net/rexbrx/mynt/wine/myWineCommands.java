@@ -18,7 +18,7 @@ public class myWineCommands {
     }
 
     private static LiteralArgumentBuilder<CommandSourceStack> createRootCommand() {
-        return Commands.literal("wine")
+        return Commands.literal("wyne")
                 .requires(source -> source.hasPermission(0))
                 .then(Commands.literal("random")
                         .then(Commands.argument("min", IntegerArgumentType.integer())

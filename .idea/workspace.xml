@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636cfb1f-aded-40c7-b67b-15aa16d729af" name="Changes" comment="Mynt 1.3.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/OasisAPI.java" afterDir="false" />
+    <list default="true" id="636cfb1f-aded-40c7-b67b-15aa16d729af" name="Changes" comment="Mynt 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/myPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -19,18 +21,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/c6vzlqfp601ygehvnh7yic7yo/work.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/c6vzlqfp601ygehvnh7yic7yo/work.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/oasis/MyntApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/oasis/MyntApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/oasis/myWorldPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/oasis/myWorldPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/wine/myWineCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/wine/myWineCommands.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/sources/modMetadata/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/modMetadata/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mynt-2.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mynt-2.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/neoforge.mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Mynt.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myWineCommands.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/FileUtils.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Mynt.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MyntApi.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myLogger.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myQuickRegistry.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myWineCommands.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myWorldPlacements.class.uniqueId2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-23-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-23-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-23-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-23-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-23-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-23-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-06-23-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-06-23-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -38,11 +41,6 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/MyntApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/myWorldPlacements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/myLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/myLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/myQuickRegistry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/wine/myWineCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/wine/myWineCommands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782191362596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mynt 2">
+      <option name="closed" value="true" />
+      <created>1782793389912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782793389912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +278,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mynt 1.3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mynt 1.3.2" />
+    <MESSAGE value="Mynt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mynt 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/mixin/MixinPlayerAbilities.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
