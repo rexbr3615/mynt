@@ -1,42 +1,19 @@
 package net.rexbrx.mynt.utils;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.List;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-import java.util.zip.ZipOutputStream;
-import org.apache.commons.io.IOUtils;
-import com.google.common.io.Files;
+import org.apache.commons.compress.utils.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
 
-public class FileUtils {
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class myFileUtils {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-
-
-
-
-
-
-
-    /*
     public static void writeToFile(@NotNull File file, boolean append, String... text) throws IOException {
         FileOutputStream fo = new FileOutputStream(file, append);
         OutputStreamWriter os = new OutputStreamWriter(fo, StandardCharsets.UTF_8);
@@ -53,6 +30,10 @@ public class FileUtils {
         IOUtils.closeQuietly(os);
         IOUtils.closeQuietly(writer);
     }
+
+
+    /*
+
 
     public static List<String> getFileLine(@NotNull File file) {
         List<String> list = new ArrayList<>();
