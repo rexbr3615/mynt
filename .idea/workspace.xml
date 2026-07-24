@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636cfb1f-aded-40c7-b67b-15aa16d729af" name="Changes" comment="Mynt 221">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/myFileEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/myFileFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/myInterfaceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/37fc8wn7le29v2kllik9j9cvj/buildfingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/37fc8wn7le29v2kllik9j9cvj/buildfingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/37fc8wn7le29v2kllik9j9cvj/work.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/37fc8wn7le29v2kllik9j9cvj/work.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/c6vzlqfp601ygehvnh7yic7yo/buildfingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/c6vzlqfp601ygehvnh7yic7yo/buildfingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/c6vzlqfp601ygehvnh7yic7yo/work.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/c6vzlqfp601ygehvnh7yic7yo/work.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/Mynt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/Mynt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/rexbrx/mynt/utils/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/sources/modMetadata/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/modMetadata/META-INF/neoforge.mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/neoforge.mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myPath.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/myPath.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/Mynt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/Mynt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/utils/myFileUtils.java" afterDir="false" />
-    </list>
+    <list default="true" id="4cb706aa-23aa-477f-8e88-6de8cfc0e42e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,16 +26,23 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mynt" type="f1a62948:ProjectNode" />
+                <item name="Mynt3" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mynt" type="f1a62948:ProjectNode" />
+                <item name="Mynt3" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mynt3" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mynt" type="f1a62948:ProjectNode" />
+                <item name="Mynt3" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -88,96 +60,75 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;rexbr3615&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rexbr3615/mynt.git&quot;,
-    &quot;accountId&quot;: &quot;93331ee0-be88-415c-85bd-d10e51de0319&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6,
+  &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3ETDV9SgfeolOawb7JP5wvksqg4" />
+  <component name="ProjectId" id="3Gv6MqVkxMIOtTvWJJu6Nh8D2iX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.mynt [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.C:/Users/guilherme/AppData/Local/Temp/Mynt3 [wrapper genIntellijRuns].executor": "Run",
+    "Gradle.Mynt3 [:common:build].executor": "Run",
+    "Gradle.Mynt3 [:common:classes].executor": "Run",
+    "Gradle.Mynt3 [:fabric:classes].executor": "Run",
+    "Gradle.Mynt3 [:fabric:runClient].executor": "Run",
+    "Gradle.Mynt3 [:forge:createMcpToSrg].executor": "Run",
+    "Gradle.Mynt3 [:neoforge:build].executor": "Run",
+    "Gradle.Mynt3 [:neoforge:jar].executor": "Run",
+    "Gradle.Mynt3 [:neoforge:runClient].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guilherme/AppData/Local/Temp/Mynt3/common/src/main/java/net/rexbrx/mynt",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\src\main\resources" />
+      <recent name="C:\Users\guilherme\AppData\Local\Temp\Mynt3\common\src\main\java\net\rexbrx\mynt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.mynt [build]">
-    <configuration name="Client" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Gradle.Mynt3 [:common:build]">
+    <configuration name="NeoForge Client (:neoforge)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
-      <module name="mynt.main" />
-      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\clientRunProgramArgs.txt" />
-      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\classes\\java\\main;mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\resources\\main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <module name="Mynt3.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\moddev\\clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\moddev\\clientRunVmArgs.txt -Dfml.modFolders=mynt3%%C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\classes\\java\\main;mynt3%%C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Data" type="Application" factoryName="Application">
+    <configuration name="NeoForge Data (:neoforge)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
-      <module name="mynt.main" />
-      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\dataRunProgramArgs.txt" />
-      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\dataRunVmArgs.txt -Dfml.modFolders=mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\classes\\java\\main;mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\resources\\main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <module name="Mynt3.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\moddev\\dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\moddev\\dataRunVmArgs.txt -Dfml.modFolders=mynt3%%C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\classes\\java\\main;mynt3%%C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTestServer" type="Application" factoryName="Application">
+    <configuration name="NeoForge Server (:neoforge)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
-      <module name="mynt.main" />
-      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\gameTestServerRunProgramArgs.txt" />
-      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\gameTestServerRunVmArgs.txt -Dfml.modFolders=mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\classes\\java\\main;mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\resources\\main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <module name="Mynt3.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\moddev\\serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=mynt3%%C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\classes\\java\\main;mynt3%%C:\\Users\\guilherme\\AppData\\Local\\Temp\\Mynt3\\neoforge\\build\\resources\\main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
-      <module name="mynt.main" />
-      <option name="PROGRAM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\serverRunProgramArgs.txt" />
-      <option name="VM_PARAMETERS" value="@C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\moddev\\serverRunVmArgs.txt -Dfml.modFolders=mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\classes\\java\\main;mynt%%C:\\Users\\guilherme\\IdeaProjects\\mynt\\build\\resources\\main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mynt [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Mynt3 [:common:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -188,7 +139,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":common:build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,7 +153,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="mynt [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Mynt3 [:common:classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,7 +164,82 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="runClient" />
+            <option value=":common:classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mynt3 [:neoforge:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":neoforge:build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mynt3 [:neoforge:jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":neoforge:jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Mynt3 [:neoforge:runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":neoforge:runClient" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,8 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.mynt [build]" />
-        <item itemvalue="Gradle.mynt [runClient]" />
+        <item itemvalue="Gradle.Mynt3 [:common:build]" />
+        <item itemvalue="Gradle.Mynt3 [:common:classes]" />
+        <item itemvalue="Gradle.Mynt3 [:neoforge:jar]" />
+        <item itemvalue="Gradle.Mynt3 [:neoforge:build]" />
+        <item itemvalue="Gradle.Mynt3 [:neoforge:runClient]" />
       </list>
     </recent_temporary>
   </component>
@@ -244,58 +273,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="636cfb1f-aded-40c7-b67b-15aa16d729af" name="Changes" comment="" />
-      <created>1780193694260</created>
+      <changelist id="4cb706aa-23aa-477f-8e88-6de8cfc0e42e" name="Changes" comment="" />
+      <created>1784839655118</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1780193694260</updated>
-      <workItem from="1780193695080" duration="22000" />
+      <updated>1784839655118</updated>
     </task>
-    <task id="LOCAL-00001" summary="Mynt 1.3.2">
-      <option name="closed" value="true" />
-      <created>1782191362595</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1782191362596</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Mynt 2">
-      <option name="closed" value="true" />
-      <created>1782793389912</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1782793389912</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Mynt 221">
-      <option name="closed" value="true" />
-      <created>1783315239678</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1783315239678</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mynt 1.3.2" />
-    <MESSAGE value="Mynt 2" />
-    <MESSAGE value="Mynt 221" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mynt 221" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/rexbrx/mynt/oasis/mixin/MixinPlayerAbilities.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

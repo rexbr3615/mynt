@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mynt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mynt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Mynt3.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Mynt3.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/Mynt3.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/Mynt3.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/Mynt3.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/Mynt3.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/Mynt3.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/Mynt3.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/Mynt3.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/Mynt3.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/Mynt3.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/Mynt3.neoforge.main.iml" />
     </modules>
   </component>
 </project>
