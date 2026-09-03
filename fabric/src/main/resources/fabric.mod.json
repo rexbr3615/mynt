@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "mynt",
+  "version": "${version}",
+  "name": "Mynt4",
+  "description": "Mynt Lib",
+  "authors": [
+    "RexBRX"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "ARR",
+  "icon": "mynt.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rexbrx.mynt.fabric.MyntFabric"
+    ],
+    "client": [
+      "net.rexbrx.mynt.fabric.client.MyntFabricClient"
+    ]
+  },
+  "mixins": [
+    "mynt.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

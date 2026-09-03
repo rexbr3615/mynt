@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rexbrx.mynt",
+    "module": "mynt-fabric",
+    "version": "3.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mynt-fabric-3.3.2.jar",
+          "url": "mynt-fabric-3.3.2.jar",
+          "size": 18825,
+          "sha512": "ffad95362e0a845aa19c9635a77f647089743d6df50c1fc11e152adf0f3a5318d5cda8f39d68d076e49c40bc49ec0aa2c5a4f61c197ba733c2e95bda3cf9bf6e",
+          "sha256": "34e30997d7b72bac599ae06067a5aa2fcd12dde7e7f6de2aa8976eb497979517",
+          "sha1": "f95a03533c9cbe74bfd899bd3bb974c74774d57a",
+          "md5": "0229024bf8123a004c41b03513512905"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.14+1.21.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mynt-fabric-3.3.2.jar",
+          "url": "mynt-fabric-3.3.2.jar",
+          "size": 18825,
+          "sha512": "ffad95362e0a845aa19c9635a77f647089743d6df50c1fc11e152adf0f3a5318d5cda8f39d68d076e49c40bc49ec0aa2c5a4f61c197ba733c2e95bda3cf9bf6e",
+          "sha256": "34e30997d7b72bac599ae06067a5aa2fcd12dde7e7f6de2aa8976eb497979517",
+          "sha1": "f95a03533c9cbe74bfd899bd3bb974c74774d57a",
+          "md5": "0229024bf8123a004c41b03513512905"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-fabric-3.3.2-sources.jar",
+          "url": "mynt-fabric-3.3.2-sources.jar",
+          "size": 3023,
+          "sha512": "48416e4fa2c72bafd48b2ee5defeb89c87b61d4758e539ef9cac5d2989c963bad51a44fa87472928486c76f78dbdc52086e21366265f9c5ad9d7b967754e5f0c",
+          "sha256": "1b1f55e1ddefac8df6aa07cd1d2f459e423e1bca02cd1594cdd6091b5af87f60",
+          "sha1": "909f3c4fc67eb4c81712ed5ebc57bd6667c7b948",
+          "md5": "cd7907816ef09a014f25debc24ae18ac"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-fabric-3.3.2-dev-shadow.jar",
+          "url": "mynt-fabric-3.3.2-dev-shadow.jar",
+          "size": 17821,
+          "sha512": "b762a80726c3aa3bca69b7589a0136db92ae08e0338e5e9e1ec139090ddc76646da91d800d868168a8e9a4b85d0b0feda67f80feae1535070e69b59e80b7f0b4",
+          "sha256": "985b10dd3e9fb86617fdef19a635e17ceef19d6f67ce3f6ead6841b72ce8c5a0",
+          "sha1": "7138d189f34da6565abcdac7c009c618c7313641",
+          "md5": "0b94234db4c6ce913e4c45e7ab90d262"
+        }
+      ]
+    }
+  ]
+}

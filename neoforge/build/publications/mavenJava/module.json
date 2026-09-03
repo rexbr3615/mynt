@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rexbrx.mynt",
+    "module": "mynt-neoforge",
+    "version": "3.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mynt-neoforge-3.3.2.jar",
+          "url": "mynt-neoforge-3.3.2.jar",
+          "size": 17957,
+          "sha512": "bd4936998fbe35f41cc8e287e9a9c26befd0fa9e665e425a9df4d01bc683e2a16817b8c9f5745186485725a09a52a6fceda0fe69fbb13ba2427ff13e1274ec66",
+          "sha256": "e652ba7bc1cd2e992265e9e55bccf53241749757d151e1545961ac70aa19c236",
+          "sha1": "a9ff015cf059e260734f3df06de0eaf2650b0f8a",
+          "md5": "0672ef68e8bda5b04fd250d18b4e2b08"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mynt-neoforge-3.3.2.jar",
+          "url": "mynt-neoforge-3.3.2.jar",
+          "size": 17957,
+          "sha512": "bd4936998fbe35f41cc8e287e9a9c26befd0fa9e665e425a9df4d01bc683e2a16817b8c9f5745186485725a09a52a6fceda0fe69fbb13ba2427ff13e1274ec66",
+          "sha256": "e652ba7bc1cd2e992265e9e55bccf53241749757d151e1545961ac70aa19c236",
+          "sha1": "a9ff015cf059e260734f3df06de0eaf2650b0f8a",
+          "md5": "0672ef68e8bda5b04fd250d18b4e2b08"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-neoforge-3.3.2-sources.jar",
+          "url": "mynt-neoforge-3.3.2-sources.jar",
+          "size": 2168,
+          "sha512": "24267d578d3a37ac526856e3ce9721fb767d64d7e844d7bb28338b7f5a52882e992efda2640a042f1c34be9d04451401fa4cce44f26f6609cce2633c3f835a61",
+          "sha256": "4482fc5c7ed19a7aff0e87643e048c800fef545b35441bb210011011a59bcbb7",
+          "sha1": "c0941aaa8708b49da24556131f1af9fa93a93db2",
+          "md5": "5312a8fe014a079ec017ca6de8b78c9f"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-neoforge-3.3.2-dev-shadow.jar",
+          "url": "mynt-neoforge-3.3.2-dev-shadow.jar",
+          "size": 17187,
+          "sha512": "d12bb74ac9a2c9cbe7bb97884c9a72623119568130a0d8f6efbb50b55eb0302fe1ce95ce136cfd44dc5b160c19a6637e37925425e4e2dd9812ecf30a603f9aab",
+          "sha256": "b40229f60584ca7a045753c90f979a1bcf8953e7700378adaef447d27c98c49d",
+          "sha1": "ef38718d8cba16f2bbc476c22932bab6ccf68b0b",
+          "md5": "f54aedf7cb98e82496d85f0dffaf323c"
+        }
+      ]
+    }
+  ]
+}

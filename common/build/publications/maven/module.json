@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rexbrx.mynt",
+    "module": "mynt",
+    "version": "3.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mynt-3.1.1.jar",
+          "url": "mynt-3.1.1.jar",
+          "size": 17382,
+          "sha512": "697a410f77dcc6899d86c71d68266f76ad5cc1d306b4e6741c196bd1f57a073a2f1a672246b6e4be8fc931608fe95c067239a981cdcc547cf23d7c61ff46f21d",
+          "sha256": "43c6e17aff0ede64de731b14b6f0166cb3d6b8001a907a9eb56aeb70de2868b1",
+          "sha1": "0777ee5993508c9b9c784acc84628997f551670d",
+          "md5": "e132215890f3cdc9fd982159f60ca022"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mynt-3.1.1.jar",
+          "url": "mynt-3.1.1.jar",
+          "size": 17382,
+          "sha512": "697a410f77dcc6899d86c71d68266f76ad5cc1d306b4e6741c196bd1f57a073a2f1a672246b6e4be8fc931608fe95c067239a981cdcc547cf23d7c61ff46f21d",
+          "sha256": "43c6e17aff0ede64de731b14b6f0166cb3d6b8001a907a9eb56aeb70de2868b1",
+          "sha1": "0777ee5993508c9b9c784acc84628997f551670d",
+          "md5": "e132215890f3cdc9fd982159f60ca022"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-3.1.1-sources.jar",
+          "url": "mynt-3.1.1-sources.jar",
+          "size": 12507,
+          "sha512": "90a06f20a2140f0283a60ed558cae62f0d74fcd15fa26b5a98eab52a3086289c4bde490ffcfd822ab4f67952a36109dfd2e3082098fd46fa6e812696a598d4cf",
+          "sha256": "00b93a1a4c8f6ea046f199d150d43b4418741647883af1b4c2c8fde432bd9c98",
+          "sha1": "b918de60aa2e493281bb563ca98f94a40304c4ff",
+          "md5": "7ff0f7a0913741e46f546e89d591c84a"
+        }
+      ]
+    }
+  ]
+}

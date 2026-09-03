@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mynt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mynt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/mynt.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/mynt.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/mynt.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/mynt.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/mynt.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/mynt.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/mynt.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/mynt.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/mynt.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/mynt.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/mynt.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/mynt.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/mynt.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/mynt.neoforge.test.iml" />
     </modules>
   </component>
 </project>

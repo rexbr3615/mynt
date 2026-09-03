@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "mynt"
+version = "3.6.1"
+displayName = "Mynt4"
+authors = "RexBRX"
+description = '''
+Mynt Lib
+'''
+logoFile = "mynt.png"
+
+[[dependencies.mynt]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mynt]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "mynt.mixins.json"

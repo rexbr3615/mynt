@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rexbrx.mynt",
+    "module": "mynt",
+    "version": "3.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mynt-3.1.1.jar",
+          "url": "mynt-3.1.1.jar",
+          "size": 19092,
+          "sha512": "e8d5f4abf874054b0ece6ce1f05ffeb6b74ed71395a6722c39b0e8f407e82aea916853f2b633b6ddbcf9826dccc3f62ce1c71b2ceacf5de0c11d36c300f74e58",
+          "sha256": "0cb66c70bf86c62ecdb753de13603d6f281e99561ac8d449e6e9736280d0edc0",
+          "sha1": "0020351bf3f2b4011645230079515ffcd95d07bf",
+          "md5": "ef087f6b000b5a2974ba4ca3495c5ec2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.14+1.21.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mynt-3.1.1.jar",
+          "url": "mynt-3.1.1.jar",
+          "size": 19092,
+          "sha512": "e8d5f4abf874054b0ece6ce1f05ffeb6b74ed71395a6722c39b0e8f407e82aea916853f2b633b6ddbcf9826dccc3f62ce1c71b2ceacf5de0c11d36c300f74e58",
+          "sha256": "0cb66c70bf86c62ecdb753de13603d6f281e99561ac8d449e6e9736280d0edc0",
+          "sha1": "0020351bf3f2b4011645230079515ffcd95d07bf",
+          "md5": "ef087f6b000b5a2974ba4ca3495c5ec2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-3.1.1-sources.jar",
+          "url": "mynt-3.1.1-sources.jar",
+          "size": 3023,
+          "sha512": "7616ef0ae4fd1df0f7bb4101bcdb247f8564089e2b6ac74f88d9b3adb36824c4b1bf515e1a3ca4632c78ebfc712ae58ee8fdec21f0fdc2c485214a15b8ba7efc",
+          "sha256": "42a02b0afb63b4bceac12d808a0ba3346e5f15afbecf0f21b2758c1f3c267eb3",
+          "sha1": "627b32e3aa0fad11ec1a328b7d263ef1cf845de9",
+          "md5": "2710dd2b2b836d7e858529795a42cd64"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mynt-3.1.1-dev-shadow.jar",
+          "url": "mynt-3.1.1-dev-shadow.jar",
+          "size": 18094,
+          "sha512": "5e93e9a48bfe08478266e40ce113766468c2806469509e90484ffe8a2fa3ad0fc96cc9cca2c0b7a1af99af3c8c0c5b2ed8b498607d36c4ec72b984c640778c19",
+          "sha256": "5cbea0fc3019fe17b5a8c3947d12e0092e751aa4a4f8dfb49ff88c3d757d23a8",
+          "sha1": "4beae14e966ac0f04a909c01b94e60c5fe1dc177",
+          "md5": "56ebda18fe933d2231c4e26f666bff07"
+        }
+      ]
+    }
+  ]
+}
