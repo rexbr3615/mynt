@@ -3,7 +3,7 @@
   "component": {
     "group": "net.rexbrx.mynt",
     "module": "mynt-common",
-    "version": "3.3.2",
+    "version": "3.6.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "mynt-common-3.3.2.jar",
-          "url": "mynt-common-3.3.2.jar",
-          "size": 17082,
-          "sha512": "82a144235095b967282bc50459427451b91ce63c87d53792f234ddb5c589c456c37700195c1c249d7b930d06d3514dff68f9b22419a36882ddbff03d77db8886",
-          "sha256": "755cf7bbc91b1e1c0dfa1370b43f1ade4f174c925de2f02a0c7b9bcbb3dbedd2",
-          "sha1": "bc9b58f5e055c98ab17107e3f940bffcb9cf4d7a",
-          "md5": "2f3f7ec076e1c9e9c74dee95db9bac4a"
+          "name": "mynt-common-3.6.2.jar",
+          "url": "mynt-common-3.6.2.jar",
+          "size": 65935,
+          "sha512": "3610e51d39854e9d5d1ca4ddb2984817afdf37ee301794ceb3063de193083c943ed2af21758a940c4914eb1ed89aac5a5b3c1a98d2e30a5997ef77ffbed6217f",
+          "sha256": "9dae077f76ace3d35988f28bf22d1c1485e3b15f73d33a9b4bd17f5e499531ca",
+          "sha1": "857d307781e8097e69d4e3dd44950a4aa83fa068",
+          "md5": "2bf7b41b95c4538e471daf3985fd28cf"
         }
       ]
     },
@@ -55,13 +55,13 @@
       ],
       "files": [
         {
-          "name": "mynt-common-3.3.2.jar",
-          "url": "mynt-common-3.3.2.jar",
-          "size": 17082,
-          "sha512": "82a144235095b967282bc50459427451b91ce63c87d53792f234ddb5c589c456c37700195c1c249d7b930d06d3514dff68f9b22419a36882ddbff03d77db8886",
-          "sha256": "755cf7bbc91b1e1c0dfa1370b43f1ade4f174c925de2f02a0c7b9bcbb3dbedd2",
-          "sha1": "bc9b58f5e055c98ab17107e3f940bffcb9cf4d7a",
-          "md5": "2f3f7ec076e1c9e9c74dee95db9bac4a"
+          "name": "mynt-common-3.6.2.jar",
+          "url": "mynt-common-3.6.2.jar",
+          "size": 65935,
+          "sha512": "3610e51d39854e9d5d1ca4ddb2984817afdf37ee301794ceb3063de193083c943ed2af21758a940c4914eb1ed89aac5a5b3c1a98d2e30a5997ef77ffbed6217f",
+          "sha256": "9dae077f76ace3d35988f28bf22d1c1485e3b15f73d33a9b4bd17f5e499531ca",
+          "sha1": "857d307781e8097e69d4e3dd44950a4aa83fa068",
+          "md5": "2bf7b41b95c4538e471daf3985fd28cf"
         }
       ]
     },
@@ -75,13 +75,13 @@
       },
       "files": [
         {
-          "name": "mynt-common-3.3.2-sources.jar",
-          "url": "mynt-common-3.3.2-sources.jar",
-          "size": 12464,
-          "sha512": "f43e173ddddafafc6e27e949b8b5a34ece62462efbeb15a0e4fe78d5fa8d1e93b99aec46e183f8637a122c96a985634efa92a67c9e05d47503b35d2d7c5ed8b6",
-          "sha256": "f513af4537105007a30966c2f94ddfedbb1a93ad1e14c6d4cde3e5d56127a425",
-          "sha1": "6a45b98344e26fdc54216a295a5969cc3a025efd",
-          "md5": "20de473372cb17a6e2fa1b9766c75500"
+          "name": "mynt-common-3.6.2-sources.jar",
+          "url": "mynt-common-3.6.2-sources.jar",
+          "size": 42847,
+          "sha512": "6e2c7d2b178772f35f99c276bf01e45675c745fed88c8756fc8ce6c4efde54d35faa0f9f58c65d03c0f57e9451875fff284cf83d13be938f0912810975e5195b",
+          "sha256": "76940177b342d5b05626bd354b0f48701145509b92482a6c299a19d9bf509c84",
+          "sha1": "e1a06b3b051d352914054cca6e74ad966843fcda",
+          "md5": "cf28b6ffa36a17b0ff31c88fa1673ae8"
         }
       ]
     }

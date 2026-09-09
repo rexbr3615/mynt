@@ -1,19 +1,19 @@
 package net.rexbrx.mynt.init;
 
-import net.rexbrx.mynt.utils.myLogger;
+import net.rexbrx.mynt.log.MyntLog;
 
 public class MyntCore {
     public static void init() {
-        myLogger.myDebug("|-----------------------------|");
-        myLogger.myDebug("|                             |");
-        myLogger.myDebug("| Hello World, from Mynt4! ;) |");
-        myLogger.myDebug("|                             |");
-        myLogger.myDebug("| v3.6.2 | release |  RexBRX  |");
-        myLogger.myDebug("|                             |");
-        myLogger.myDebug("|-----------------------------|");
+        MyntLog.myDebug("|-----------------------------|");
+        MyntLog.myDebug("|                             |");
+        MyntLog.myDebug("| Hello World, from Mynt4! ;) |");
+        MyntLog.myDebug("|                             |");
+        MyntLog.myDebug("| v3.7.0 | release |  RexBRX  |");
+        MyntLog.myDebug("|                             |");
+        MyntLog.myDebug("|-----------------------------|");
     }
 
     public static void ModWarn(String modid) {
-        myLogger.myDebug("Mynt Inilialized for: " + modid);
+        MyntLog.myWarn("Mynt Inilialized for: " + modid);
     }
 }

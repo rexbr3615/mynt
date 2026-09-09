@@ -8,7 +8,7 @@ public class MyntConstants {
 
     public static final String MOD_NAME = "Mynt4";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
-    public static final String VERSION = "";
+    public static final String VERSION = "4.7.0";
 
     private MyntConstants() {
     }

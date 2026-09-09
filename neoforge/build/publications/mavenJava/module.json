@@ -3,7 +3,7 @@
   "component": {
     "group": "net.rexbrx.mynt",
     "module": "mynt-neoforge",
-    "version": "3.3.2",
+    "version": "3.6.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "mynt-neoforge-3.3.2.jar",
-          "url": "mynt-neoforge-3.3.2.jar",
-          "size": 17957,
-          "sha512": "bd4936998fbe35f41cc8e287e9a9c26befd0fa9e665e425a9df4d01bc683e2a16817b8c9f5745186485725a09a52a6fceda0fe69fbb13ba2427ff13e1274ec66",
-          "sha256": "e652ba7bc1cd2e992265e9e55bccf53241749757d151e1545961ac70aa19c236",
-          "sha1": "a9ff015cf059e260734f3df06de0eaf2650b0f8a",
-          "md5": "0672ef68e8bda5b04fd250d18b4e2b08"
+          "name": "mynt-neoforge-3.6.2.jar",
+          "url": "mynt-neoforge-3.6.2.jar",
+          "size": 65918,
+          "sha512": "49deaea7b4b407c7bb89d5d2aea977ad538a84d3f4be091bc578a36af7e7e42ae92ea3ce6d4d18ed34dcd32b5d1689ffed605fb531565008e45443a43beab93d",
+          "sha256": "dc072b1bfbddb5942b5fff69900eee5c68d4c3d5bddd9d7eda3f3f6efeafb3c6",
+          "sha1": "54dce109cdb40e6df20329d231a96f58a28b2437",
+          "md5": "679a5a5f5a1cb79c2cf05dcf7029f92d"
         }
       ]
     },
@@ -55,13 +55,13 @@
       ],
       "files": [
         {
-          "name": "mynt-neoforge-3.3.2.jar",
-          "url": "mynt-neoforge-3.3.2.jar",
-          "size": 17957,
-          "sha512": "bd4936998fbe35f41cc8e287e9a9c26befd0fa9e665e425a9df4d01bc683e2a16817b8c9f5745186485725a09a52a6fceda0fe69fbb13ba2427ff13e1274ec66",
-          "sha256": "e652ba7bc1cd2e992265e9e55bccf53241749757d151e1545961ac70aa19c236",
-          "sha1": "a9ff015cf059e260734f3df06de0eaf2650b0f8a",
-          "md5": "0672ef68e8bda5b04fd250d18b4e2b08"
+          "name": "mynt-neoforge-3.6.2.jar",
+          "url": "mynt-neoforge-3.6.2.jar",
+          "size": 65918,
+          "sha512": "49deaea7b4b407c7bb89d5d2aea977ad538a84d3f4be091bc578a36af7e7e42ae92ea3ce6d4d18ed34dcd32b5d1689ffed605fb531565008e45443a43beab93d",
+          "sha256": "dc072b1bfbddb5942b5fff69900eee5c68d4c3d5bddd9d7eda3f3f6efeafb3c6",
+          "sha1": "54dce109cdb40e6df20329d231a96f58a28b2437",
+          "md5": "679a5a5f5a1cb79c2cf05dcf7029f92d"
         }
       ]
     },
@@ -75,13 +75,13 @@
       },
       "files": [
         {
-          "name": "mynt-neoforge-3.3.2-sources.jar",
-          "url": "mynt-neoforge-3.3.2-sources.jar",
-          "size": 2168,
-          "sha512": "24267d578d3a37ac526856e3ce9721fb767d64d7e844d7bb28338b7f5a52882e992efda2640a042f1c34be9d04451401fa4cce44f26f6609cce2633c3f835a61",
-          "sha256": "4482fc5c7ed19a7aff0e87643e048c800fef545b35441bb210011011a59bcbb7",
-          "sha1": "c0941aaa8708b49da24556131f1af9fa93a93db2",
-          "md5": "5312a8fe014a079ec017ca6de8b78c9f"
+          "name": "mynt-neoforge-3.6.2-sources.jar",
+          "url": "mynt-neoforge-3.6.2-sources.jar",
+          "size": 2167,
+          "sha512": "2780ad98fa8c2368c7664d679b6c19ba78515f370a9d893ee2caa2dd75bb46f7a77f7900541296d80e0d8bdad8d73db3010fd17cf8cfd2b1071172439a5cc1f9",
+          "sha256": "428ce8f717d5a9130af16bf6398050ac016b9445243cf0e92a7fd6be9e51671c",
+          "sha1": "e0f8870402d31424cdcc4b1252c43f846f4ef5d1",
+          "md5": "2d598018d4bbcfd565cd449630ce9f78"
         }
       ]
     },
@@ -95,13 +95,13 @@
       },
       "files": [
         {
-          "name": "mynt-neoforge-3.3.2-dev-shadow.jar",
-          "url": "mynt-neoforge-3.3.2-dev-shadow.jar",
-          "size": 17187,
-          "sha512": "d12bb74ac9a2c9cbe7bb97884c9a72623119568130a0d8f6efbb50b55eb0302fe1ce95ce136cfd44dc5b160c19a6637e37925425e4e2dd9812ecf30a603f9aab",
-          "sha256": "b40229f60584ca7a045753c90f979a1bcf8953e7700378adaef447d27c98c49d",
-          "sha1": "ef38718d8cba16f2bbc476c22932bab6ccf68b0b",
-          "md5": "f54aedf7cb98e82496d85f0dffaf323c"
+          "name": "mynt-neoforge-3.6.2-dev-shadow.jar",
+          "url": "mynt-neoforge-3.6.2-dev-shadow.jar",
+          "size": 63752,
+          "sha512": "40404f8d3613e48ad9e12c3fd6264c1e24a1ff4bf524a7cd750998dd56266bf3e1757268228b3b9c19d1f0e95109a1a0821134c9eb1271981cc440aa4c9ad7ec",
+          "sha256": "f029e99afa2e080779f637f9be027d9c6618e699cb4708e4ffe3159f74b0e75b",
+          "sha1": "f33d5ff6e81e23050169f5a226e06f7f7561efd2",
+          "md5": "bb97e4e4191c682bd8137d8017a74fd7"
         }
       ]
     }

@@ -3,7 +3,7 @@
   "component": {
     "group": "net.rexbrx.mynt",
     "module": "mynt-fabric",
-    "version": "3.3.2",
+    "version": "3.6.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "mynt-fabric-3.3.2.jar",
-          "url": "mynt-fabric-3.3.2.jar",
-          "size": 18825,
-          "sha512": "ffad95362e0a845aa19c9635a77f647089743d6df50c1fc11e152adf0f3a5318d5cda8f39d68d076e49c40bc49ec0aa2c5a4f61c197ba733c2e95bda3cf9bf6e",
-          "sha256": "34e30997d7b72bac599ae06067a5aa2fcd12dde7e7f6de2aa8976eb497979517",
-          "sha1": "f95a03533c9cbe74bfd899bd3bb974c74774d57a",
-          "md5": "0229024bf8123a004c41b03513512905"
+          "name": "mynt-fabric-3.6.2.jar",
+          "url": "mynt-fabric-3.6.2.jar",
+          "size": 66557,
+          "sha512": "081122a62ab229d76dceb84d824f6de5b52381845828d5aa997350674c40024a68fb431d70338170a6658924d6ef1c344663c78014ea1ba56218e8d6a0abccd4",
+          "sha256": "91499e805a799e2919d59190896db41962d5f9dcfbba59807ebcf62ac7e04810",
+          "sha1": "ef553931163b29bbc85ab542bdadbf32a477c061",
+          "md5": "4bb7e4f0d15568fc7c0f6950b3c9774a"
         }
       ]
     },
@@ -69,13 +69,13 @@
       ],
       "files": [
         {
-          "name": "mynt-fabric-3.3.2.jar",
-          "url": "mynt-fabric-3.3.2.jar",
-          "size": 18825,
-          "sha512": "ffad95362e0a845aa19c9635a77f647089743d6df50c1fc11e152adf0f3a5318d5cda8f39d68d076e49c40bc49ec0aa2c5a4f61c197ba733c2e95bda3cf9bf6e",
-          "sha256": "34e30997d7b72bac599ae06067a5aa2fcd12dde7e7f6de2aa8976eb497979517",
-          "sha1": "f95a03533c9cbe74bfd899bd3bb974c74774d57a",
-          "md5": "0229024bf8123a004c41b03513512905"
+          "name": "mynt-fabric-3.6.2.jar",
+          "url": "mynt-fabric-3.6.2.jar",
+          "size": 66557,
+          "sha512": "081122a62ab229d76dceb84d824f6de5b52381845828d5aa997350674c40024a68fb431d70338170a6658924d6ef1c344663c78014ea1ba56218e8d6a0abccd4",
+          "sha256": "91499e805a799e2919d59190896db41962d5f9dcfbba59807ebcf62ac7e04810",
+          "sha1": "ef553931163b29bbc85ab542bdadbf32a477c061",
+          "md5": "4bb7e4f0d15568fc7c0f6950b3c9774a"
         }
       ]
     },
@@ -89,13 +89,13 @@
       },
       "files": [
         {
-          "name": "mynt-fabric-3.3.2-sources.jar",
-          "url": "mynt-fabric-3.3.2-sources.jar",
-          "size": 3023,
-          "sha512": "48416e4fa2c72bafd48b2ee5defeb89c87b61d4758e539ef9cac5d2989c963bad51a44fa87472928486c76f78dbdc52086e21366265f9c5ad9d7b967754e5f0c",
-          "sha256": "1b1f55e1ddefac8df6aa07cd1d2f459e423e1bca02cd1594cdd6091b5af87f60",
-          "sha1": "909f3c4fc67eb4c81712ed5ebc57bd6667c7b948",
-          "md5": "cd7907816ef09a014f25debc24ae18ac"
+          "name": "mynt-fabric-3.6.2-sources.jar",
+          "url": "mynt-fabric-3.6.2-sources.jar",
+          "size": 3018,
+          "sha512": "63a4a1c076d40375bd04db4a82237a8c714efc36deaa23d0b9d8fd6f7cd7deec86936c50505f38d1c2b992d7884dfbac5a15e19d559ec5cf6fd2c0340c667893",
+          "sha256": "33a24ffe282b2716ae34538ab469d7e84ed03de187faa0d9c2f5b8157448c8c3",
+          "sha1": "445041cad63fd7beb5a889f8947c27be1a712c99",
+          "md5": "a04e7d14c07cf059eb8200e308ace27b"
         }
       ]
     },
@@ -109,13 +109,13 @@
       },
       "files": [
         {
-          "name": "mynt-fabric-3.3.2-dev-shadow.jar",
-          "url": "mynt-fabric-3.3.2-dev-shadow.jar",
-          "size": 17821,
-          "sha512": "b762a80726c3aa3bca69b7589a0136db92ae08e0338e5e9e1ec139090ddc76646da91d800d868168a8e9a4b85d0b0feda67f80feae1535070e69b59e80b7f0b4",
-          "sha256": "985b10dd3e9fb86617fdef19a635e17ceef19d6f67ce3f6ead6841b72ce8c5a0",
-          "sha1": "7138d189f34da6565abcdac7c009c618c7313641",
-          "md5": "0b94234db4c6ce913e4c45e7ab90d262"
+          "name": "mynt-fabric-3.6.2-dev-shadow.jar",
+          "url": "mynt-fabric-3.6.2-dev-shadow.jar",
+          "size": 64377,
+          "sha512": "c1f7a0d4e0f9bef28d1daefa548a106eb6a17a379525ab068e50474db80cf90cba5734b84ad95d096edeb182ada680e1dc207d09c95a015dd492bfcea920a667",
+          "sha256": "f0b859ada5b02d5d5466afac22fad03261ef74ad49424b18313c50a9c30b8bb0",
+          "sha1": "1c6005188c43df6cfc21c21d3d51c5efd846f3c4",
+          "md5": "d806812e310bdd3c1b18c31fe6b6748f"
         }
       ]
     }
