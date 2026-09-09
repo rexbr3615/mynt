@@ -9,4 +9,5 @@ public final class Mynt {
         MyntCore.init();
         MyntCore.ModWarn(MyntConstants.MOD_NAME);
     }
+
 }
