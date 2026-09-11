@@ -4,9 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="rewrite it">
+    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/Mynt.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/Mynt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/Mynt.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/Mynt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/MyntConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/MyntConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntDeepslateOreBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntFacingBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntSandBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntStoneOreBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/items/MyntItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myFileEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myFileFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myIdentifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myInterfaceUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/CommandAliases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/CommandFuzzy$Scored.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/CommandFuzzy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/EntryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/FuzzyMatcher$Scratch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/FuzzyMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/ItemKinds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/MatchPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/QuickMatcher$Session.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/QuickMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchIndex$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/ShortcutRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/TextNormalizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myFileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myGarbageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myMathUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/wine/myAnimationUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/wine/myWineCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/wine/myntEntityCommonVariation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionFabric.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionFabric.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionNeoForge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionNeoForge.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/Mynt.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/MyntCore.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +89,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mynt" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mynt" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mynt" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -75,58 +145,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.mynt [:common:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:generatePomFileForMavenJavaPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:publish].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:fabric:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:fabric:classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:fabric:publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:publish].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [generateMetadataFileForMavenJavaPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [generatePomFileForMavenJavaPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [generatePomFileForMavenPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishAllPublicationsToMavenCentralRepository].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishAndReleaseToMavenCentral].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishToMavenCentral].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publish].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on Dev/4.X&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt/common/src/main/java/net/rexbrx/mynt/gecko&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.mynt [:common:build].executor": "Run",
+    "Gradle.mynt [:common:classes].executor": "Run",
+    "Gradle.mynt [:common:generatePomFileForMavenJavaPublication].executor": "Run",
+    "Gradle.mynt [:common:publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [:common:publish].executor": "Run",
+    "Gradle.mynt [:fabric:build].executor": "Run",
+    "Gradle.mynt [:fabric:classes].executor": "Run",
+    "Gradle.mynt [:fabric:publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [:neoforge:build].executor": "Run",
+    "Gradle.mynt [:neoforge:classes].executor": "Run",
+    "Gradle.mynt [:neoforge:publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [:neoforge:publish].executor": "Run",
+    "Gradle.mynt [build].executor": "Run",
+    "Gradle.mynt [classes].executor": "Run",
+    "Gradle.mynt [generateMetadataFileForMavenJavaPublication].executor": "Run",
+    "Gradle.mynt [generatePomFileForMavenJavaPublication].executor": "Run",
+    "Gradle.mynt [generatePomFileForMavenPublication].executor": "Run",
+    "Gradle.mynt [publishAllPublicationsToMavenCentralRepository].executor": "Run",
+    "Gradle.mynt [publishAndReleaseToMavenCentral].executor": "Run",
+    "Gradle.mynt [publishToMavenCentral].executor": "Run",
+    "Gradle.mynt [publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [publish].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Dev/4.X",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guilherme/IdeaProjects/mynt/common/src/main/java/net/rexbrx/mynt/ctm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\ctm" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\gecko" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\siltlib" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\hitboxes" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\siltlib" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.mynt [publishToMavenLocal]">
+  <component name="RunManager" selected="Gradle.mynt [build]">
     <configuration name="mynt [:neoforge:publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -254,10 +324,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.mynt [publishToMavenLocal]" />
-        <item itemvalue="Gradle.mynt [publish]" />
         <item itemvalue="Gradle.mynt [build]" />
         <item itemvalue="Gradle.mynt [classes]" />
+        <item itemvalue="Gradle.mynt [publishToMavenLocal]" />
+        <item itemvalue="Gradle.mynt [publish]" />
         <item itemvalue="Gradle.mynt [:neoforge:publishToMavenLocal]" />
       </list>
     </recent_temporary>
@@ -294,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788915899529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a">
+      <option name="closed" value="true" />
+      <created>1788918868983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788918868983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +385,7 @@
     <MESSAGE value="multiloader update" />
     <MESSAGE value="multiloader update 2" />
     <MESSAGE value="rewrite it" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrite it" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>

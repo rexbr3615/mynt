@@ -1,73 +1,70 @@
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.6.2-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionFabric.jar
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionFabric.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.6.2-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionFabric.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@17fa82da
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@67387eff
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@527370ef
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@6a7531e2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@1d8daae1
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@12e5f13f
 [Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7790fd01
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.6.2-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6a00816c
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/wine/myWineCalculator with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/wine/myntEntityCommonVariation with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/wine/myAnimationUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myMathUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myLogger with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myList with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myGarbageUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myFileUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/TextNormalizer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/ShortcutRule with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchSettings with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchQuery with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchIndex with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchIndex$Entry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchField with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/QuickMatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/QuickMatcher$Session with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/MatchPolicy with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/ItemKinds with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/FuzzyMatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/FuzzyMatcher$Scratch with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/EntryBuilder with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/CommandFuzzy with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/CommandFuzzy$Scored with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/CommandAliases with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myInterfaceUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myIdentifiers with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myFileFilter with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myFileEngine with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/TextNormalizer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ShortcutRule with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchSettings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchQuery with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex$Entry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchField with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher$Session with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/MatchPolicy with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ItemKinds with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher$Scratch with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/EntryBuilder with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy$Scored with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandAliases with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntMathUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntGarbageUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/items/MyntItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/entity/MyntEntityCommonVariation with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntStoneOreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntSandBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntFacingBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntDeepslateOreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntIdentifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileList with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileEngine with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/MyntConstants with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/Mynt with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/log/MyntLog with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/init/MyntCore with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/items/MyntItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntStoneOreBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntSandBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntFacingBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntDeepslateOreBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/client/MyntAnimUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/client/clock/MyntCalculator with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /mynt.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Found mixin config(s): /mynt.mixins.json
 [Architectury Transformer DEBUG] Injecting mynt-common-common-refmap.json to /mynt.mixins.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionFabric.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 3.199 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 813.8 ms
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.6.2-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionNeoForge.jar
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionNeoForge.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.6.2-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionNeoForge.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@230e107
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@7c1a6a93
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3119f978
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@6a332cae
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@6f8ed036
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.6.2-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionNeoForge.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@571d2c35
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@43f60bad
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@448a2227
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@c04b943
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@32c65072
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000001f3a3e28200@76b76809
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000014d2814b068@306a6820
 [Architectury Transformer DEBUG] Provided 60 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.5\ff9e65cffca4a67f31523e1807fe0855940fcbfa\fabric-loader-0.19.5.jar
@@ -129,49 +126,46 @@
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2\minecraft-merged-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\54188f271e388e7f313aea995e82f58ce2cdb809\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\5514744c588190ffda076b35a9b8c9f24946a960\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
-[Architectury Transformer] Read classpath in 3.337 s
+[Architectury Transformer] Read classpath in 7.474 s
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/MyntConstants with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/Mynt with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/wine/myAnimationUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/wine/myWineCalculator with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/wine/myntEntityCommonVariation with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myFileUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myLogger with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myGarbageUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myMathUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/utils/myList with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/QuickMatcher$Session with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchSettings with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/FuzzyMatcher$Scratch with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/CommandFuzzy with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchField with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/TextNormalizer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/FuzzyMatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchIndex$Entry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/ShortcutRule with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/CommandFuzzy$Scored with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/CommandAliases with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/MatchPolicy with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/QuickMatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchIndex with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/EntryBuilder with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/ItemKinds with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/siltlib/SearchQuery with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myFileFilter with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myIdentifiers with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myFileEngine with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/oasis/myInterfaceUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/EntryBuilder with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandAliases with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ShortcutRule with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/TextNormalizer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex$Entry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchQuery with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher$Scratch with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchSettings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchField with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher$Session with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy$Scored with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ItemKinds with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/MatchPolicy with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntGarbageUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntMathUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/items/MyntItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/entity/MyntEntityCommonVariation with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntDeepslateOreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntStoneOreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntSandBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntFacingBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileList with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileEngine with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntIdentifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/log/MyntLog with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/init/MyntCore with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/items/MyntItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntFacingBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntDeepslateOreBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntStoneOreBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntSandBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/global/server/blocks/MyntBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2-transformProductionNeoForge.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 5.081 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.6.2.jar
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/client/MyntAnimUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/client/clock/MyntCalculator with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0-transformProductionNeoForge.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 13.05 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.0.jar
