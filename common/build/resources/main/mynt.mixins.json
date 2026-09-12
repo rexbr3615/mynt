@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.rexbrx.mynt.mixin",
+  "package": "net.rexbrx.mynt.mixins",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
-  ],
-  "mixins": [
+    "ModelBakeryMixin",
+    "ModelManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

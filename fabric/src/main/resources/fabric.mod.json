@@ -19,7 +19,8 @@
       "net.rexbrx.mynt.fabric.MyntFabric"
     ],
     "client": [
-      "net.rexbrx.mynt.fabric.client.MyntFabricClient"
+      "net.rexbrx.mynt.fabric.client.MyntFabricClient",
+      "net.rexbrx.mynt.athena.impl.client.DefaultModels::init"
     ]
   },
   "mixins": [

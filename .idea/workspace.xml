@@ -4,8 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="add gitignore in this shit">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/AthenaBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/AthenaModelAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/AthenaModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/AthenaQuad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/FactoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/NotNullUnbakedModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/models/TintProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/utils/AppearanceAndTintGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/utils/AthenaUnbakedModelLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/utils/AthenaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/utils/CtmState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/utils/CtmUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/api/client/utils/NullableEnumMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/DefaultModels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/ConnectedCarpetBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/LimitedPillarBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/athena/impl/loading/AthenaResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/ModelBakeryMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/ModelManagerMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/FactoryManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/api/AthenaBakedModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/api/AthenaModelLoadingPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/api/AthenaUnbakedModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/api/WrappedGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/api/client/models/neoforge/FactoryManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/api/client/neoforge/AthenaBakedModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/api/client/neoforge/AthenaBlockElementFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/api/client/neoforge/AthenaUnbakedModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/api/client/neoforge/ForgeAthenaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/api/client/neoforge/WrappedGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/client/AthenaGeometryLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/client/AthenaNeoForgeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/mixins/neoforge/ModelBakeryMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/mynt-neoforge.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -18,54 +57,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/Mynt.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/Mynt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/MyntConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/MyntConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntDeepslateOreBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntFacingBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntSandBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/blocks/MyntStoneOreBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/global/server/items/MyntItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myFileEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myFileFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myIdentifiers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/oasis/myInterfaceUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/CommandAliases.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/CommandFuzzy$Scored.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/CommandFuzzy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/EntryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/FuzzyMatcher$Scratch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/FuzzyMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/ItemKinds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/MatchPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/QuickMatcher$Session.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/QuickMatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchIndex$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/SearchSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/ShortcutRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/siltlib/TextNormalizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myFileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myGarbageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/utils/myMathUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/wine/myAnimationUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/wine/myWineCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/wine/myntEntityCommonVariation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionFabric.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionFabric.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionNeoForge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/mynt-common-3.7.0-transformProductionNeoForge.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/Mynt.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/MyntCore.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/mynt.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/mynt.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/mynt.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mynt.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/MyntFabricClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/net/rexbrx/mynt/fabric/client/MyntFabricClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/build/classes/java/main/net/rexbrx/mynt/neoforge/MyntNeoForge.class" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/classes/java/main/net/rexbrx/mynt/neoforge/MyntNeoForge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/MyntNeoForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/MyntNeoForge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Dev/4.X",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/guilherme/IdeaProjects/mynt/common/src/main/java/net/rexbrx/mynt/ctm",
+    "last_opened_file_path": "C:/Users/guilherme/IdeaProjects/mynt/fabric/src/main/java/net/rexbrx/mynt/fabric/client",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -185,18 +185,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\ctm" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\gecko" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\siltlib" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\hitboxes" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt\fabric\client" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt\fabric\client\api" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\neoforge\src\main\java\net\rexbrx\mynt\neoforge" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\neoforge\src\main\resources" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\siltlib" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.mynt [build]">
+  <component name="RunManager" selected="Gradle.mynt [classes]">
     <configuration name="mynt [:neoforge:publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -324,8 +324,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.mynt [build]" />
         <item itemvalue="Gradle.mynt [classes]" />
+        <item itemvalue="Gradle.mynt [build]" />
         <item itemvalue="Gradle.mynt [publishToMavenLocal]" />
         <item itemvalue="Gradle.mynt [publish]" />
         <item itemvalue="Gradle.mynt [:neoforge:publishToMavenLocal]" />
@@ -372,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788918868983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add gitignore in this shit">
+      <option name="closed" value="true" />
+      <created>1789168047684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789168047684</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +394,7 @@
     <MESSAGE value="multiloader update 2" />
     <MESSAGE value="rewrite it" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="add gitignore in this shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore in this shit" />
   </component>
 </project>

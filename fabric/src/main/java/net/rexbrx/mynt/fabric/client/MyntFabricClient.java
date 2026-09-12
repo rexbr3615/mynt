@@ -1,10 +1,12 @@
 package net.rexbrx.mynt.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
+import net.rexbrx.mynt.fabric.client.api.AthenaModelLoadingPlugin;
 
 public final class MyntFabricClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        // This entrypoint is suitable for setting up client-specific logic, such as rendering.
+        ModelLoadingPlugin.register(new AthenaModelLoadingPlugin());
     }
 }

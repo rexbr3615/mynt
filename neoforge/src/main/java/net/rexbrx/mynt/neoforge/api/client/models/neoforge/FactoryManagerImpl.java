@@ -1,0 +1,30 @@
+package net.rexbrx.mynt.neoforge.api.client.models.neoforge;
+
+import net.minecraft.resources.ResourceLocation;
+import net.rexbrx.mynt.athena.api.client.models.AthenaModelFactory;
+import net.rexbrx.mynt.athena.api.client.utils.AthenaUnbakedModelLoader;
+import net.rexbrx.mynt.neoforge.api.client.neoforge.AthenaUnbakedModel;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+public class FactoryManagerImpl {
+
+    private static final Map<ResourceLocation, AthenaUnbakedModelLoader> FACTORIES = new HashMap<>();
+
+    public static void register(ResourceLocation type, AthenaModelFactory factory) {
+        if (FACTORIES.containsKey(type)) {
+            throw new IllegalArgumentException("Factory already registered for type: " + type);
+        }
+        FACTORIES.put(type, new AthenaUnbakedModelLoader(type, factory, AthenaUnbakedModel::new));
+    }
+
+    public static AthenaUnbakedModelLoader get(ResourceLocation type) {
+        return FACTORIES.get(type);
+    }
+
+    public static Collection<ResourceLocation> getTypes() {
+        return FACTORIES.keySet();
+    }
+}
