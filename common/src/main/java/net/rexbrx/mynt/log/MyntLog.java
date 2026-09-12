@@ -20,4 +20,8 @@ public class MyntLog {
     public static void myError (String Input) {
         System.err.println("[ERROR]:" + Input);
     }
+
+    public static void stastisticEntityGoal(String identifier, String x, String y, String z) {
+        System.out.println("Entity goal is -> " + "x: " + x + "y: " + y + "z: " + z);
+    }
 }
