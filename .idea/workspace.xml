@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="inject athena ctm in this shit" />
+    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="Merge remote-tracking branch 'origin/Dev/4.X' into Dev/4.X&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14/checksums/checksums.lock&#10;#&#9;.gradle/8.14/checksums/md5-checksums.bin&#10;#&#9;.gradle/8.14/checksums/sha1-checksums.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.lock&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.bin&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.lock&#10;#&#9;.gradle/8.14/fileHashes/resourceHashesCache.bin&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.gradle/file-system.probe&#10;#&#9;.idea/workspace.xml&#10;#&#9;build/reports/problems/problems-report.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,43 +85,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.mynt [:common:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:generatePomFileForMavenJavaPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:common:publish].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:fabric:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:fabric:classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:fabric:publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [:neoforge:publish].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [classes].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [generateMetadataFileForMavenJavaPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [generatePomFileForMavenJavaPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [generatePomFileForMavenPublication].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishAllPublicationsToMavenCentralRepository].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishAndReleaseToMavenCentral].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishToMavenCentral].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.mynt [publish].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.mynt [:common:build].executor": "Run",
+    "Gradle.mynt [:common:classes].executor": "Run",
+    "Gradle.mynt [:common:generatePomFileForMavenJavaPublication].executor": "Run",
+    "Gradle.mynt [:common:publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [:common:publish].executor": "Run",
+    "Gradle.mynt [:fabric:build].executor": "Run",
+    "Gradle.mynt [:fabric:classes].executor": "Run",
+    "Gradle.mynt [:fabric:publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [:neoforge:build].executor": "Run",
+    "Gradle.mynt [:neoforge:classes].executor": "Run",
+    "Gradle.mynt [:neoforge:publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [:neoforge:publish].executor": "Run",
+    "Gradle.mynt [build].executor": "Run",
+    "Gradle.mynt [classes].executor": "Run",
+    "Gradle.mynt [generateMetadataFileForMavenJavaPublication].executor": "Run",
+    "Gradle.mynt [generatePomFileForMavenJavaPublication].executor": "Run",
+    "Gradle.mynt [generatePomFileForMavenPublication].executor": "Run",
+    "Gradle.mynt [publishAllPublicationsToMavenCentralRepository].executor": "Run",
+    "Gradle.mynt [publishAndReleaseToMavenCentral].executor": "Run",
+    "Gradle.mynt [publishToMavenCentral].executor": "Run",
+    "Gradle.mynt [publishToMavenLocal].executor": "Run",
+    "Gradle.mynt [publish].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Dev/4.X",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guilherme/IdeaProjects/mynt",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\guilherme\IdeaProjects\mynt" />
@@ -325,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789250563478</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/Dev/4.X' into Dev/4.X&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14/checksums/checksums.lock&#10;#&#9;.gradle/8.14/checksums/md5-checksums.bin&#10;#&#9;.gradle/8.14/checksums/sha1-checksums.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.lock&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.bin&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.lock&#10;#&#9;.gradle/8.14/fileHashes/resourceHashesCache.bin&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.gradle/file-system.probe&#10;#&#9;.idea/workspace.xml&#10;#&#9;build/reports/problems/problems-report.html">
+      <option name="closed" value="true" />
+      <created>1789251169555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789251169555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +346,17 @@
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:net.fabricmc:fabric-loader" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="multiloader update" />
     <MESSAGE value="multiloader update 2" />
@@ -341,6 +364,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="add gitignore in this shit" />
     <MESSAGE value="inject athena ctm in this shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inject athena ctm in this shit" />
+    <MESSAGE value="f2" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Dev/4.X' into Dev/4.X&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14/checksums/checksums.lock&#10;#&#9;.gradle/8.14/checksums/md5-checksums.bin&#10;#&#9;.gradle/8.14/checksums/sha1-checksums.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.lock&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.bin&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.lock&#10;#&#9;.gradle/8.14/fileHashes/resourceHashesCache.bin&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.gradle/file-system.probe&#10;#&#9;.idea/workspace.xml&#10;#&#9;build/reports/problems/problems-report.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Dev/4.X' into Dev/4.X&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14/checksums/checksums.lock&#10;#&#9;.gradle/8.14/checksums/md5-checksums.bin&#10;#&#9;.gradle/8.14/checksums/sha1-checksums.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.lock&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.bin&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.lock&#10;#&#9;.gradle/8.14/fileHashes/resourceHashesCache.bin&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.gradle/file-system.probe&#10;#&#9;.idea/workspace.xml&#10;#&#9;build/reports/problems/problems-report.html" />
   </component>
 </project>

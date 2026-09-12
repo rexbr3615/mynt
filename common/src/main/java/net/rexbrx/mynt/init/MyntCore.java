@@ -8,7 +8,7 @@ public class MyntCore {
         MyntLog.myDebug("|                             |");
         MyntLog.myDebug("| Hello World, from Mynt4! ;) |");
         MyntLog.myDebug("|                             |");
-        MyntLog.myDebug("| v3.7.0 | release |  RexBRX  |");
+        MyntLog.myDebug("| v3.7.2 | release |  RexBRX  |");
         MyntLog.myDebug("|                             |");
         MyntLog.myDebug("|-----------------------------|");
     }
