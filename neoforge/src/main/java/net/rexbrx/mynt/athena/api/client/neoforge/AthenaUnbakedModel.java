@@ -1,4 +1,4 @@
-package net.rexbrx.mynt.neoforge.api.client.neoforge;
+package net.rexbrx.mynt.athena.api.client.neoforge;
 
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.resources.model.*;

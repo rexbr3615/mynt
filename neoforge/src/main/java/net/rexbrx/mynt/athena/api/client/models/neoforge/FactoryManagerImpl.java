@@ -1,9 +1,9 @@
-package net.rexbrx.mynt.neoforge.api.client.models.neoforge;
+package net.rexbrx.mynt.athena.api.client.models.neoforge;
 
 import net.minecraft.resources.ResourceLocation;
 import net.rexbrx.mynt.athena.api.client.models.AthenaModelFactory;
 import net.rexbrx.mynt.athena.api.client.utils.AthenaUnbakedModelLoader;
-import net.rexbrx.mynt.neoforge.api.client.neoforge.AthenaUnbakedModel;
+import net.rexbrx.mynt.athena.api.client.neoforge.AthenaUnbakedModel;
 
 import java.util.Collection;
 import java.util.HashMap;

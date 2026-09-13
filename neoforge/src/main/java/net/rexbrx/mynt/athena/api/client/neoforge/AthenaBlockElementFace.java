@@ -1,4 +1,4 @@
-package net.rexbrx.mynt.neoforge.api.client.neoforge;
+package net.rexbrx.mynt.athena.api.client.neoforge;
 
 import net.minecraft.client.renderer.block.model.BlockElementFace;
 import net.minecraft.client.renderer.block.model.BlockFaceUV;

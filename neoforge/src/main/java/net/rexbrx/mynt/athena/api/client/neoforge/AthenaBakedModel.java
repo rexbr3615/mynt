@@ -1,4 +1,4 @@
-package net.rexbrx.mynt.neoforge.api.client.neoforge;
+package net.rexbrx.mynt.athena.api.client.neoforge;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.Optionull;

@@ -1,5 +1,6 @@
 package net.rexbrx.mynt;
 
+import net.rexbrx.mynt.athena.impl.client.DefaultModels;
 import net.rexbrx.mynt.init.MyntCore;
 
 public final class Mynt {
@@ -8,6 +9,7 @@ public final class Mynt {
     public static void init() {
         MyntCore.init();
         MyntCore.ModWarn(MyntConstants.MOD_NAME);
+        DefaultModels.init();
     }
 
 }

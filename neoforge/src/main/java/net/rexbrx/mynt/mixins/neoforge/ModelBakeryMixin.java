@@ -1,10 +1,10 @@
-package net.rexbrx.mynt.neoforge.mixins.neoforge;
+package net.rexbrx.mynt.mixins.neoforge;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import net.minecraft.client.resources.model.*;
 import net.minecraft.resources.ResourceLocation;
-import net.rexbrx.mynt.neoforge.api.client.models.neoforge.FactoryManagerImpl;
+import net.rexbrx.mynt.athena.api.client.models.neoforge.FactoryManagerImpl;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Coerce;
