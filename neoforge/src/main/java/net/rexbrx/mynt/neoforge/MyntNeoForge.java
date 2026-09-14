@@ -13,7 +13,7 @@ public final class MyntNeoForge {
     public MyntNeoForge(IEventBus modEventBus) {
         // Run our common setup.
         if (FMLLoader.getDist().isClient()) {
-            //DefaultModels.init();
+            DefaultModels.init();
             Mynt.init();
             MyntNeoForgeClient.init(modEventBus);
         }

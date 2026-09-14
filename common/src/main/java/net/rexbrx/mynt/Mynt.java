@@ -9,7 +9,7 @@ public final class Mynt {
     public static void init() {
         MyntCore.init();
         MyntCore.ModWarn(MyntConstants.MOD_NAME);
-        DefaultModels.init();
+        //DefaultModels.init();
     }
 
 }

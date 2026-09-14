@@ -13,11 +13,6 @@ Mynt Lib
 '''
 logoFile = "mynt.png"
 
-[[mixins]]
-    config = "mynt.mixins.json"
-[[mixins]]
-    config = "mynt-neoforge.mixins.json"
-
 [[dependencies.mynt]]
 modId = "neoforge"
 type = "required"
@@ -34,3 +29,5 @@ side = "BOTH"
 
 [[mixins]]
 config = "mynt.mixins.json"
+[[mixins]]
+config = "mynt-neoforge.mixins.json"

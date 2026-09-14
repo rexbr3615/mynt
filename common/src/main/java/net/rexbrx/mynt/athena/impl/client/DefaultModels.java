@@ -9,7 +9,7 @@ import net.rexbrx.mynt.athena.impl.client.models.*;
 
 public class DefaultModels {
 
-    public static final String MODID = MyntConstants.MODID;
+    public static final String MODID = "athena";
 
     private static ResourceLocation id(String name) {
         return ResourceLocation.fromNamespaceAndPath(MODID, name);

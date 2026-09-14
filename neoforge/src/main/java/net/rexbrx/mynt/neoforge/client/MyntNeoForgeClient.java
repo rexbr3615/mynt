@@ -11,6 +11,6 @@ public class MyntNeoForgeClient {
     }
 
     public static void onRegisterGeometryLoaders(ModelEvent.RegisterGeometryLoaders event) {
-        event.register(ResourceLocation.fromNamespaceAndPath("mynt", "mynt"), new AthenaGeometryLoader());
+        event.register(ResourceLocation.fromNamespaceAndPath("mynt", "athena"), new AthenaGeometryLoader());
     }
 }

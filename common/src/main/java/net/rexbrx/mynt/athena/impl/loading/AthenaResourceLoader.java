@@ -28,7 +28,7 @@ public class AthenaResourceLoader {
 
     public static void reload(ResourceManager manager) {
         AthenaResourceLoader.data.clear();
-        SimpleJsonResourceReloadListener.scanDirectory(manager, "mynt", new Gson(), AthenaResourceLoader.data);
+        SimpleJsonResourceReloadListener.scanDirectory(manager, "athena", new Gson(), AthenaResourceLoader.data);
     }
 
     public static JsonObject getData(ResourceLocation modelType, ResourceLocation modelId) {
