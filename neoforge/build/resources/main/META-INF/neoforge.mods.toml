@@ -5,7 +5,7 @@ license = "Insert License Here"
 
 [[mods]]
 modId = "mynt"
-version = "3.7.7"
+version = "3.7.9"
 displayName = "Mynt4"
 authors = "RexBRX"
 description = '''
@@ -29,3 +29,5 @@ side = "BOTH"
 
 [[mixins]]
 config = "mynt.mixins.json"
+[[mixins]]
+config = "mynt-neoforge.mixins.json"

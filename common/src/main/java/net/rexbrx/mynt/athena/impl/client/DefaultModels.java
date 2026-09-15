@@ -22,6 +22,7 @@ public class DefaultModels {
         FactoryManager.register(id("giant"), GiantBlockModel.FACTORY);
         FactoryManager.register(id("mural"), GiantBlockModel.FACTORY);
         FactoryManager.register(id("pillar"), PillarBlockModel.FACTORY);
+        FactoryManager.register(id("modern_pillar"), ModernPillarBlockModel.FACTORY);
         FactoryManager.register(id("limited_pillar"), LimitedPillarBlockModel.FACTORY);
         FactoryManager.register(id("pane_pillar"), PanePillarBlockModel.FACTORY);
     }
