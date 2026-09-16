@@ -3,9 +3,24 @@
   "package": "net.rexbrx.mynt.mixins",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
+  "mixins": [
+    "EntityHitResultMixin",
+    "EntityMixin",
+    "LevelMixin",
+    "MobMixin",
+    "PlayerMixin",
+    "ProjectileUtilMixin",
+    "TransientEntitySectionManagerMixin"
+  ],
   "client": [
     "ModelBakeryMixin",
-    "ModelManagerMixin"
+    "ModelManagerMixin",
+    "ClientEntityMixin",
+    "ClientMobMixin",
+    "EntityRenderDispatcherMixin",
+    "GeckoLibMobMixin",
+    "GeoEntityRendererMixin",
+    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1

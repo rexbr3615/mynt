@@ -1,0 +1,34 @@
+package net.rexbrx.mynt.mixins.neoforge;
+
+import com.mojang.authlib.GameProfile;
+import net.minecraft.client.player.AbstractClientPlayer;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.Level;
+import net.rexbrx.mynt.morehitboxes.api.MultiPart;
+import net.rexbrx.mynt.morehitboxes.api.MultiPartEntity;
+import org.spongepowered.asm.mixin.Mixin;
+
+@Mixin(AbstractClientPlayer.class)
+public abstract class AbstractClientPlayerMixin extends Player {
+
+    protected AbstractClientPlayerMixin(Level pLevel, BlockPos pPos, float pYRot, GameProfile pGameProfile) {
+        super(pLevel, pPos, pYRot, pGameProfile);
+    }
+
+    @Override
+    public boolean isCloseEnough(Entity entity, double dist) {
+        if (super.isCloseEnough(entity, dist)) {
+            return true;
+        }
+        if (entity instanceof MultiPartEntity<?> multiPartEntity) {
+            for (MultiPart<?> part : multiPartEntity.getEntityHitboxData().getCustomParts()) {
+                if (isCloseEnough(part.getEntity(), dist)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}

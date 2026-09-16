@@ -3,6 +3,7 @@ plugins {
     id 'architectury-plugin' version '3.4-SNAPSHOT'
     id 'com.gradleup.shadow' version '8.3.6' apply false
     //id "com.vanniktech.maven.publish" version "0.37.0"
+    id 'java-library'
 }
 
 architectury {
@@ -38,6 +39,7 @@ subprojects {
                 includeGroup("com.eliotlash.mclib")
             }
         }
+        mavenCentral()
     }
 
     loom {
@@ -47,6 +49,11 @@ subprojects {
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
         mappings loom.officialMojangMappings()
+        // Only the annotations are needed at compile time
+        compileOnly 'com.google.auto.service:auto-service-annotations:1.1.1'
+
+        // The processor handles generating the META-INF files during compilation
+        annotationProcessor 'com.google.auto.service:auto-service:1.1.1'
     }
 
     java {
