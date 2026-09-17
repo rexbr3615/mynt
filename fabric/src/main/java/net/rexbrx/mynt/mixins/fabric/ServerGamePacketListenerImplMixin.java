@@ -1,0 +1,39 @@
+package net.rexbrx.mynt.mixins.fabric;
+
+
+import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
+import com.llamalad7.mixinextras.sugar.Local;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.network.ServerGamePacketListenerImpl;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
+import net.rexbrx.mynt.morehitboxes.api.MultiPart;
+import net.rexbrx.mynt.morehitboxes.api.MultiPartEntity;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Unique;
+import org.spongepowered.asm.mixin.injection.At;
+
+@Mixin(ServerGamePacketListenerImpl.class)
+public class ServerGamePacketListenerImplMixin {
+
+    @Shadow
+    public ServerPlayer player;
+
+    @ModifyExpressionValue(method = "handleInteract", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/level/ServerPlayer;canInteractWithEntity(Lnet/minecraft/world/phys/AABB;D)Z"))
+    private boolean modifyForMultiPartEntities(boolean original, @Local Entity target) {
+        if (target instanceof MultiPartEntity || target instanceof MultiPart<?>) {
+            return isCloseEnough(target, player.isCreative() ? 9 : 6);
+        }
+        return original;
+    }
+
+    @Unique
+    private boolean isCloseEnough(Entity entity, double dist) {
+        //Copy forges extended attack and interact range for larger entities
+        Vec3 eye = player.getEyePosition();
+        AABB aabb = entity.getBoundingBox().inflate(entity.getPickRadius());
+        return aabb.distanceToSqr(eye) < dist * dist;
+    }
+}

@@ -1,4 +1,4 @@
-package net.rexbrx.mynt.fabric.client.api;
+package net.rexbrx.mynt.athena.api.client.fabric;
 
 import net.fabricmc.fabric.api.blockview.v2.FabricBlockView;
 import net.minecraft.core.BlockPos;

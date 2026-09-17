@@ -1,4 +1,4 @@
-package net.rexbrx.mynt.fabric.client.api;
+package net.rexbrx.mynt.athena.api.client.fabric;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.fabricmc.fabric.api.renderer.v1.RendererAccess;

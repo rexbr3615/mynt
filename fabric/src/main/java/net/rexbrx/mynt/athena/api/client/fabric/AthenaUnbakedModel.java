@@ -1,4 +1,4 @@
-package net.rexbrx.mynt.fabric.client.api;
+package net.rexbrx.mynt.athena.api.client.fabric;
 
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.resources.model.*;

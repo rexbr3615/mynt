@@ -1,9 +1,9 @@
-package net.rexbrx.mynt.fabric.client;
+package net.rexbrx.mynt.athena.api.client.models.fabric;
 
 import net.minecraft.resources.ResourceLocation;
+import net.rexbrx.mynt.athena.api.client.fabric.AthenaUnbakedModel;
 import net.rexbrx.mynt.athena.api.client.models.AthenaModelFactory;
 import net.rexbrx.mynt.athena.api.client.utils.AthenaUnbakedModelLoader;
-import net.rexbrx.mynt.fabric.client.api.AthenaUnbakedModel;
 
 import java.util.HashMap;
 import java.util.Map;

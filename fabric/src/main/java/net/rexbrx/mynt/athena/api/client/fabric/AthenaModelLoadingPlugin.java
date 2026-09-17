@@ -1,7 +1,7 @@
-package net.rexbrx.mynt.fabric.client.api;
+package net.rexbrx.mynt.athena.api.client.fabric;
 
 import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
-import net.rexbrx.mynt.fabric.client.FactoryManagerImpl;
+import net.rexbrx.mynt.athena.api.client.models.fabric.FactoryManagerImpl;
 
 import java.util.Objects;
 

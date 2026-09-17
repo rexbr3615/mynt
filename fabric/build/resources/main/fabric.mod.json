@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "mynt",
-  "version": "3.7.9.2",
+  "version": "3.7.9.4",
   "name": "Mynt4",
   "description": "Mynt Lib",
   "authors": [
@@ -16,15 +16,18 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.rexbrx.mynt.fabric.MyntFabric"
+      "net.rexbrx.mynt.fabric.MyntFabric",
+      "net.rexbrx.mynt.morehitboxes.FabricMoreHitboxesMod"
     ],
     "client": [
       "net.rexbrx.mynt.fabric.client.MyntFabricClient",
-      "net.rexbrx.mynt.athena.impl.client.DefaultModels::init"
+      "net.rexbrx.mynt.athena.impl.client.DefaultModels::init",
+      "net.rexbrx.mynt.morehitboxes.FabricMoreHitboxesModClient"
     ]
   },
   "mixins": [
-    "mynt.mixins.json"
+    "mynt.mixins.json",
+    "mynt-fabric.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.19.3",
