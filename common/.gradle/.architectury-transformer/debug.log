@@ -1,20 +1,20 @@
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.9.4-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionFabric.jar
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.8.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionFabric.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.9.4-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionFabric.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@23c09f4b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@2d1ed1a7
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@2d0c10ee
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.8.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@8b1813c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@77d2110a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@6bccec3c
 [Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7d94464b
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.9.4-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@57159641
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.8.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\guilherme\IdeaProjects\mynt\common\build\loom-cache\mixin-map-loom.mappings.1_21_1.layered+hash.40359-v2.main.tiny
 [Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\guilherme\IdeaProjects\mynt\fabric\build\loom-cache\mixin-map-loom.mappings.1_21_1.layered+hash.40359-v2.main.tiny
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda/0x0000029a4f0d7520@76488a8b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda/0x0000029a4f0d7520@62460f0e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda/0x000001c7213ee438@23680451
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda/0x000001c7213ee438@16d8547
 [Architectury Transformer DEBUG] Provided 61 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.5\ff9e65cffca4a67f31523e1807fe0855940fcbfa\fabric-loader-0.19.5.jar
@@ -77,27 +77,27 @@
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2\minecraft-merged-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\54188f271e388e7f313aea995e82f58ce2cdb809\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\5514744c588190ffda076b35a9b8c9f24946a960\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
-[Architectury Transformer] Read classpath in 4.422 s
+[Architectury Transformer] Read classpath in 6.087 s
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/MyntConstants with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/Mynt with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/EntryBuilder with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ShortcutRule with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher$Session with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/TextNormalizer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher$Scratch with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchQuery with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex$Entry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchField with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandAliases with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher$Session with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchSettings with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ItemKinds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy$Scored with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ItemKinds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/MatchPolicy with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntGarbageUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntMathUtils with maxs=true frames=true
@@ -108,8 +108,8 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntSandBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntFacingBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileList with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileEngine with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileList with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntIdentifier with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/MoreHitboxesMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/ResourcePackRegistry with maxs=true frames=true
@@ -120,37 +120,37 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/MultiPartGeoEntityRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/HitboxDataLoader with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/MultiPartEntityHitResult with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AttackBoxDataInternal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AttackBoxDataInternal$DistUtilFactory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AttackBoxDataInternal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/GeckoLibMultiPartMob with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AnchorDataInternal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/ProjectileUtilOverride with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/EntityHitboxDataInternal with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/AnchorData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/MultiPart with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/AnchorData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/EntityHitboxDataFactory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/MultiPart$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/GeckoLibMultiPartEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/MultiPart$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/AttackBoxData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/MultiPartEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/HitboxData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/AnimationOverride with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/api/EntityHitboxData with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ClientMobMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/GeoEntityRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/TransientEntitySectionManagerMixin$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/EntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/GeckoLibMobMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/EntityRenderDispatcherMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/EntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/MinecraftMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/LevelMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/PlayerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/GeoEntityRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/TransientEntitySectionManagerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/EntityRenderDispatcherMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ModelManagerMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ClientEntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ProjectileUtilMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/MobMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ClientEntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ModelBakeryMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/MobMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/EntityHitResultMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/log/MyntLog with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/init/MyntCore with maxs=true frames=true
@@ -158,19 +158,19 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/client/clock/MyntCalculator with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/loading/AthenaResourceLoader with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/DefaultModels with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ModernPillarBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/LimitedPillarBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedCarpetBlockModel$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedCarpetBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ModernPillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel$Factory with maxs=true frames=true
@@ -179,46 +179,46 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap$MapProvider with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap$SimpleProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/CtmState with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/CtmUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/NullableEnumMap$MapEntry with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUnbakedModelLoader with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AppearanceAndTintGetter with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/CtmState$ConnectionCheck with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/CtmState with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils$UrMom with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/NullableEnumMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AppearanceAndTintGetter$Query with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/NullableEnumMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/NotNullUnbakedModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaQuad with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaModelFactory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaQuad with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider$Static with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaModelAttributes with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/FactoryManager with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider$Index with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/FactoryManager with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /mynt.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /mynt-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Found mixin config(s): /mynt.mixins.json
 [Architectury Transformer DEBUG] Injecting mynt-common-common-refmap.json to /mynt.mixins.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionFabric.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 6.816 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 8.422 s
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.9.4-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionNeoForge.jar
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.8.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionNeoForge.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.9.4-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionNeoForge.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@3a29a6ff
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@994f76c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1373a628
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@43e87f12
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@340137ce
-[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.7.9.4-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.8.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionNeoForge.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@2c581dca
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@738dcf9a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@78362af7
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@3e3f959b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@52e579db
+[Architectury Transformer DEBUG] Transforming from C:\Users\guilherme\IdeaProjects\mynt\common\build\devlibs\mynt-common-3.8.0-dev.jar to C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000029a4f18fdd8@144c3e2b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000001c721467d80@6217796
 [Architectury Transformer DEBUG] Provided 61 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.19.5\ff9e65cffca4a67f31523e1807fe0855940fcbfa\fabric-loader-0.19.5.jar
@@ -281,29 +281,29 @@
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2\minecraft-merged-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\54188f271e388e7f313aea995e82f58ce2cdb809\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\guilherme\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\5514744c588190ffda076b35a9b8c9f24946a960\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
-[Architectury Transformer] Read classpath in 5.552 s
+[Architectury Transformer] Read classpath in 4.899 s
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/MyntConstants with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/Mynt with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/TextNormalizer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/EntryBuilder with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ShortcutRule with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/TextNormalizer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/FuzzyMatcher$Scratch with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchQuery with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchIndex$Entry with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher$Session with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchField with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/MatchPolicy with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/SearchSettings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/QuickMatcher$Session with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandFuzzy$Scored with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/ItemKinds with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/MatchPolicy with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/shared/CommandAliases with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntGarbageUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/MyntMathUtils with maxs=true frames=true
@@ -314,8 +314,8 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntSandBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/server/blocks/MyntFacingBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileEngine with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileList with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntFileEngine with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/resources/MyntIdentifier with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/MoreHitboxesMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/ResourcePackRegistry with maxs=true frames=true
@@ -325,10 +325,10 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/network/SyncHitboxDataPayload$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/MultiPartGeoEntityRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/HitboxDataLoader with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/GeckoLibMultiPartMob with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/MultiPartEntityHitResult with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AttackBoxDataInternal$DistUtilFactory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AttackBoxDataInternal with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AttackBoxDataInternal$DistUtilFactory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/GeckoLibMultiPartMob with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/AnchorDataInternal with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/ProjectileUtilOverride with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/morehitboxes/internal/EntityHitboxDataInternal with maxs=true frames=true
@@ -350,9 +350,9 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/LevelMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/PlayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/GeoEntityRendererMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ModelManagerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/TransientEntitySectionManagerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/EntityRenderDispatcherMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ModelManagerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ClientEntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/ProjectileUtilMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/mixins/MobMixin with maxs=true frames=true
@@ -364,23 +364,23 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/client/clock/MyntCalculator with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/loading/AthenaResourceLoader with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/DefaultModels with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PanePillarBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ModernPillarBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/LimitedPillarBlockModel$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedCarpetBlockModel$Factory with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/PaneConnectedBlockModel$Factory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/GiantBlockModel$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedCarpetBlockModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ConnectedBlockModel$Factory with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/LimitedPillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ModernPillarBlockModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/LimitedPillarBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap$Provider with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap$MapProvider with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/impl/client/models/ctm/ConnectedTextureMap with maxs=true frames=true
@@ -391,19 +391,19 @@
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AppearanceAndTintGetter with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/CtmState$ConnectionCheck with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/CtmState with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AppearanceAndTintGetter$Query with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils$UrMom with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/NullableEnumMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AthenaUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/AppearanceAndTintGetter$Query with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/utils/NullableEnumMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/NotNullUnbakedModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaBlockModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaModelFactory with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaQuad with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider$Static with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider$Index with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/AthenaModelAttributes with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider$Index with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/FactoryManager with maxs=true frames=true
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.7.9.4-transformProductionNeoForge.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 7.865 s
+[Architectury Transformer DEBUG] Writing net/rexbrx/mynt/athena/api/client/models/TintProvider with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\guilherme\IdeaProjects\mynt\common\build\libs\mynt-common-3.8.0-transformProductionNeoForge.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 10.58 s
