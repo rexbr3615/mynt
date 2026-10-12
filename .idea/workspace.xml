@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="f">
-      <change beforePath="$PROJECT_DIR$/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/.architectury-transformer/debug.log" afterDir="false" />
+    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="f2">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/BetterSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/FailurePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/AsyncIndexState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/EntrySnapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/IndexExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/SourceSnapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/StagedSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/StorageInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/async/StorageSearchSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/client/ConfigIo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/client/FirstBootLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/client/IntegrationAvailability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/client/TomsStorageScreenAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/compat/RefinedStorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/FieldScorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/ItemKinds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/QuickMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/SearchTranslations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/ShortcutRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/TextNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/state/VersionedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/server/items/MyntDebugItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -15,21 +37,33 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/Mynt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/MyntConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/net/rexbrx/mynt/init/MyntCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/MyntConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/MyntConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/init/MyntCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/init/MyntCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/log/MyntLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/log/MyntLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/CommandAliases.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/CommandAliases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/CommandFuzzy.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/CommandFuzzy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/EntryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/EntryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/FuzzyMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/FuzzyMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/ItemKinds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/MatchPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/MatchPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/QuickMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/SearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/SearchField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/SearchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/SearchIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/SearchQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/SearchQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/SearchSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/bettersearch/core/SearchSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/ShortcutRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/shared/TextNormalizer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/.gradle/architectury/.transforms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +92,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mynt" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mynt" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -136,7 +176,7 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Dev/4.X&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt/fabric/src/main/java/net/rexbrx/mynt/morehitboxes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt/common/src/main/java/net/rexbrx/mynt&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -145,18 +185,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt\morehitboxes" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt\athena\api\client\fabric" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt\athena" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\resources" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\siltlib" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt\siltlib" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.mynt [buildDependents]">
+  <component name="RunManager" selected="Gradle.mynt [classes]">
     <configuration name="mynt [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -284,9 +324,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.mynt [classes]" />
         <item itemvalue="Gradle.mynt [buildDependents]" />
         <item itemvalue="Gradle.mynt [build]" />
-        <item itemvalue="Gradle.mynt [classes]" />
         <item itemvalue="Gradle.mynt [assemble]" />
         <item itemvalue="Gradle.mynt [publishToMavenLocal]" />
       </list>
@@ -436,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789946184583</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="f2">
+      <option name="closed" value="true" />
+      <created>1790216385856</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1790216385857</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +510,6 @@
     <MESSAGE value="rewrite it" />
     <MESSAGE value="add gitignore in this shit" />
     <MESSAGE value="inject athena ctm in this shit" />
-    <MESSAGE value="f2" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Dev/4.X' into Dev/4.X&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14/checksums/checksums.lock&#10;#&#9;.gradle/8.14/checksums/md5-checksums.bin&#10;#&#9;.gradle/8.14/checksums/sha1-checksums.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.bin&#10;#&#9;.gradle/8.14/executionHistory/executionHistory.lock&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.bin&#10;#&#9;.gradle/8.14/fileHashes/fileHashes.lock&#10;#&#9;.gradle/8.14/fileHashes/resourceHashesCache.bin&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.gradle/file-system.probe&#10;#&#9;.idea/workspace.xml&#10;#&#9;build/reports/problems/problems-report.html" />
     <MESSAGE value="core" />
     <MESSAGE value="fuck microslop" />
@@ -473,6 +520,7 @@
     <MESSAGE value="add multihitboxes to it, fabric soon" />
     <MESSAGE value="add old licenses to it" />
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="f2" />
+    <option name="LAST_COMMIT_MESSAGE" value="f2" />
   </component>
 </project>

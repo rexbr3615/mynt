@@ -21,6 +21,10 @@ public class MyntLog {
         System.err.println("[ERROR]:" + Input);
     }
 
+    public static void nil (String Input) {
+        System.err.println("[NIL]: Nullified output");
+    }
+
     public static void stastisticEntityGoal(String identifier, String x, String y, String z) {
         System.out.println("Entity goal is -> " + "x: " + x + "y: " + y + "z: " + z);
     }

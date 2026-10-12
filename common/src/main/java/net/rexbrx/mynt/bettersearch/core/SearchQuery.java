@@ -1,15 +1,18 @@
-package net.rexbrx.mynt.shared;
+package net.rexbrx.mynt.bettersearch.core;
 
 import java.util.ArrayList;
 import java.util.List;
 
-// parsed once per keystroke, then reused for every item
 public final class SearchQuery {
     public final String raw;
 
     public final String[] tokens;
 
     public final long[] tokenMasks;
+
+    final long combinedMask;
+
+    final boolean canMatchTypos;
 
     public final String[] modFilters;
 
@@ -19,6 +22,14 @@ public final class SearchQuery {
         this.raw = raw;
         this.tokens = tokens;
         this.tokenMasks = masks;
+        long combined = 0;
+        boolean typos = false;
+        for (int i = 0; i < masks.length; i++) {
+            combined |= masks[i];
+            typos |= maxDistances[i] > 0;
+        }
+        this.combinedMask = combined;
+        this.canMatchTypos = typos;
         this.maxDistances = maxDistances;
         this.modFilters = modFilters;
     }
@@ -27,7 +38,31 @@ public final class SearchQuery {
         return tokens.length == 0 && modFilters.length == 0;
     }
 
+    public boolean isBrowseOnly() {
+        return tokens.length == 0 && modFilters.length > 0;
+    }
+
+    public static boolean isBrowsingByMod(String rawQuery) {
+        if (rawQuery == null) {
+            return false;
+        }
+        boolean any = false;
+        for (String piece : rawQuery.split("\\s+")) {
+            if (piece.isEmpty()) {
+                continue;
+            }
+            if (piece.charAt(0) != '@' || piece.length() < 2) {
+                return false;
+            }
+            any = true;
+        }
+        return any;
+    }
+
     public static SearchQuery parse(String rawQuery, SearchSettings settings) {
+        if (rawQuery == null) {
+            rawQuery = "";
+        }
         List<String> tokens = new ArrayList<>(4);
         List<String> mods = new ArrayList<>(1);
 
