@@ -12,6 +12,10 @@ public class MyntIdentifier {
         return ResourceLocation.fromNamespaceAndPath("minecraft", location);
     }
 
+public static ResourceLocation fromMyntNamespaceAndPath(String location) {
+        return ResourceLocation.fromNamespaceAndPath("mynt", location);
+    }
+
     public static ResourceLocation fromParse(String location) {
         return ResourceLocation.parse(location);
     }

@@ -30,6 +30,10 @@ public class MyntCalculator
         return Minutes(20) * days;
     }
 
+    public static double speed_hmh(double blocksPerTick) {
+         return blocksPerTick * 72.0;
+    }
+
     public static float CalcSizeByTimeInMinutes(float initSize, float finalSize, float time) {
         return (initSize - finalSize) * Minutes(time);
     }
