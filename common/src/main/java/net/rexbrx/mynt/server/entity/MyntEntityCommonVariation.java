@@ -1,7 +1,10 @@
 package net.rexbrx.mynt.server.entity;
 
+// unused and not tested
+
 import java.util.concurrent.ThreadLocalRandom;
 
+@Deprecated
 public enum MyntEntityCommonVariation {
 
     NORMAL(0, 70),
