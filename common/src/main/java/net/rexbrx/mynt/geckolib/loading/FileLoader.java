@@ -15,11 +15,19 @@ import net.rexbrx.mynt.geckolib.loading.object.BakedAnimations;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Extracts raw information from given files, and other similar functions
  */
 public final class FileLoader {
+	public static final String MODEL_EXTENSION_JSON = ".geo.json";
+	public static final String MODEL_EXTENSION_MYNT = ".myntmodel.json";
+
+	public static boolean isModelFile(String path) {
+		return path.endsWith(MODEL_EXTENSION_JSON) || path.endsWith(MODEL_EXTENSION_MYNT);
+	}
+
 	/**
 	 * Load up and deserialize an animation json file to its respective {@link Animation} components
 	 *
@@ -46,8 +54,8 @@ public final class FileLoader {
 		if (location.getPath().endsWith(".animation.json"))
 			throw new IllegalArgumentException("Animation file found in geo models folder!");
 
-		if (!location.getPath().endsWith(".geo.json"))
-			GeckoLibConstants.LOGGER.warn("Found geo model file with improper file name format; geo model files should end in .geo.json: '" + location + "'");
+		if (!isModelFile(location.getPath()))
+			GeckoLibConstants.LOGGER.warn("Found geo model file with improper file name format; geo model files should end in " + MODEL_EXTENSION_JSON + " or " + MODEL_EXTENSION_MYNT + ": '" + location + "'");
 
 		return KeyFramesAdapter.GEO_GSON.fromJson(loadFile(location, manager), Model.class);
 	}
