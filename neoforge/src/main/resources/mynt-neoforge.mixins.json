@@ -1,15 +1,16 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.rexbrx.mynt.mixins.neoforge",
+  "package": "net.rexbrx.mynt.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "NeoForgeLevelMixin",
-    "NeoForgeMobMixin"
+    "neoforge.NeoForgeLevelMixin",
+    "neoforge.NeoForgeMobMixin"
   ],
   "client": [
     "ModelBakeryMixin",
-    "AbstractClientPlayerMixin"
+    "neoforge.AbstractClientPlayerMixin",
+    "client.HumanoidArmorLayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

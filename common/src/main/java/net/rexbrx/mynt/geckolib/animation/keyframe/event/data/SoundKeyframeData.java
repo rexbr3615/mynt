@@ -1,0 +1,35 @@
+package net.rexbrx.mynt.geckolib.animation.keyframe.event.data;
+
+import net.rexbrx.mynt.geckolib.animation.keyframe.Keyframe;
+
+import java.util.Objects;
+
+/**
+ * Sound {@link Keyframe} instruction holder
+ */
+public class SoundKeyframeData extends KeyFrameData {
+	private final String sound;
+
+	public SoundKeyframeData(Double startTick, String sound) {
+		super(startTick);
+
+		this.sound = sound;
+	}
+
+	/**
+	 * Gets the sound data given by the {@link Keyframe} instruction from the {@code animation.json}
+	 */
+	public String getSound() {
+		return this.sound;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj) && obj instanceof SoundKeyframeData other && this.sound.equals(other.sound);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(getStartTick(), this.sound);
+	}
+}

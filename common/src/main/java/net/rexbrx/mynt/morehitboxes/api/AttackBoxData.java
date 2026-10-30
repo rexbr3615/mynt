@@ -44,7 +44,7 @@ public interface AttackBoxData {
     /**
      * Activates all attack boxes for a given duration
      * <p>
-     * If GeckoLib is enabled, call this function at the beginning of an attack with {@link software.bernie.geckolib3.core.builder.Animation#animationLength}
+     * If GeckoLib is enabled, call this function at the beginning of an attack with {@link net.rexbrx.mynt.geckolib3.core.builder.Animation#animationLength}
      * as the duration
      *
      * @param attackDuration for how long(in ticks) the attack should be active

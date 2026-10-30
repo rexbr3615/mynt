@@ -10,7 +10,10 @@
     "MobMixin",
     "PlayerMixin",
     "ProjectileUtilMixin",
-    "TransientEntitySectionManagerMixin"
+    "TransientEntitySectionManagerMixin",
+    "common.AbstractContainerMenuMixin",
+    "common.ItemStackMixin",
+    "common.LivingEntityMixin"
   ],
   "client": [
     "ModelBakeryMixin",
@@ -20,7 +23,10 @@
     "EntityRenderDispatcherMixin",
     "GeckoLibMobMixin",
     "GeoEntityRendererMixin",
-    "MinecraftMixin"
+    "MinecraftMixin",
+    "client.BlockEntityWithoutLevelRendererMixin",
+    "client.LevelRendererMixin",
+    "client.TextureManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,19 +1,20 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.rexbrx.mynt.mixins.fabric",
+  "package": "net.rexbrx.mynt.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ChunkMapMixin",
-    "FabricLevelMixin",
-    "ServerEntityCallbacksMixin",
-    "ServerGamePacketListenerImplMixin",
-    "ServerLevelMixin",
-    "ServerPlayerMixin"
+    "fabric.ChunkMapMixin",
+    "fabric.FabricLevelMixin",
+    "fabric.ServerEntityCallbacksMixin",
+    "fabric.ServerGamePacketListenerImplMixin",
+    "fabric.ServerLevelMixin",
+    "fabric.ServerPlayerMixin"
   ],
   "client": [
-    "ClientEntityCallbacksMixin",
-    "ClientLevelMixin"
+    "fabric.ClientEntityCallbacksMixin",
+    "fabric.ClientLevelMixin",
+    "client.HumanoidArmorLayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

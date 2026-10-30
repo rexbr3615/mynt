@@ -1,7 +1,6 @@
 package net.rexbrx.mynt.morehitboxes.internal;
 
-
-import software.bernie.geckolib.event.GeoRenderEvent;
+import net.rexbrx.mynt.geckolib.event.GeoRenderEvent;
 
 public class GeckoLibEvents {
 

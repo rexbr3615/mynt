@@ -3,10 +3,12 @@ package net.rexbrx.mynt.neoforge.client;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.client.event.ModelEvent;
+import net.rexbrx.mynt.geckolib.cache.GeckoLibCache;
 
 public class MyntNeoForgeClient {
 
     public static void init(IEventBus mobEventBus) {
+        GeckoLibCache.registerReloadListener();
         mobEventBus.addListener(MyntNeoForgeClient::onRegisterGeometryLoaders);
     }
 

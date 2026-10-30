@@ -6,6 +6,8 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.rexbrx.mynt.Mynt;
+import net.rexbrx.mynt.geckolib.GeckoLibConstants;
+import net.rexbrx.mynt.geckolib.service.GeckoLibNetworking;
 import net.rexbrx.mynt.morehitboxes.MoreHitboxesMod;
 import net.rexbrx.mynt.morehitboxes.internal.HitboxDataLoader;
 import net.rexbrx.mynt.morehitboxes.network.SyncHitboxDataPayload;
@@ -26,7 +28,8 @@ public final class MyntFabric implements ModInitializer {
         //    ServerPlayNetworking.send(player, new SyncHitboxDataPayload(HitboxDataLoader.HITBOX_DATA.getHitboxData()));
         //});
 
-
+        GeckoLibConstants.init();
+        GeckoLibNetworking.init();
 
         // Run our common setup.
         Mynt.init();
