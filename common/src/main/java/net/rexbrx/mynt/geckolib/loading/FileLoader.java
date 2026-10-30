@@ -22,7 +22,7 @@ import java.nio.charset.StandardCharsets;
  */
 public final class FileLoader {
 	public static final String MODEL_EXTENSION_JSON = ".geo.json";
-	public static final String MODEL_EXTENSION_MYNT = ".myntmodel.json";
+	public static final String MODEL_EXTENSION_MYNT = ".myntmodel";
 
 	public static boolean isModelFile(String path) {
 		return path.endsWith(MODEL_EXTENSION_JSON) || path.endsWith(MODEL_EXTENSION_MYNT);

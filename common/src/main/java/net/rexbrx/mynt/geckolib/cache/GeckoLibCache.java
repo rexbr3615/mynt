@@ -74,7 +74,7 @@ public final class GeckoLibCache {
 	private static CompletableFuture<Void> loadAnimations(Executor backgroundExecutor, ResourceManager resourceManager, BiConsumer<ResourceLocation, BakedAnimations> elementConsumer) {
 		return CompletableFuture.runAsync(() -> BakedAnimationsAdapter.COMPRESSION_CACHE = new ConcurrentHashMap<>(), backgroundExecutor)
 				.thenRunAsync(() ->
-									  loadResources(backgroundExecutor, resourceManager, "animations", resource -> {
+									  loadResources(backgroundExecutor, resourceManager, "mynt/abs/animations", resource -> {
 										  try {
 											  return FileLoader.loadAnimationsFile(resource, resourceManager);
 										  }
@@ -91,13 +91,13 @@ public final class GeckoLibCache {
 	}
 
 	private static CompletableFuture<Void> loadModels(Executor backgroundExecutor, ResourceManager resourceManager, BiConsumer<ResourceLocation, BakedGeoModel> elementConsumer) {
-		return loadResources(backgroundExecutor, resourceManager, "geo", resource -> {
+		return loadResources(backgroundExecutor, resourceManager, "mynt/abs/geometry", resource -> {
 			try {
 				Model model = FileLoader.loadModelFile(resource, resourceManager);
 
 				switch (model.formatVersion()) {
-					case V_1_12_0 -> {}
-					case V_1_14_0 -> GeckoLibConstants.LOGGER.warn("Unsupported geometry json version: 1.14.0 for model {}. This model may not appear as expected", resource);
+					case V_1_12_0, V_MYNTFIED -> {}
+                    case V_1_14_0 -> GeckoLibConstants.LOGGER.warn("Unsupported geometry json version: 1.14.0 for model {}. This model may not appear as expected", resource);
 					case V_1_21_0 -> GeckoLibConstants.LOGGER.warn("Unsupported geometry json version: 1.21.0 for model {}. Supported versions: 1.12.0. Remove any rotated face UVs and re-export the model to fix", resource);
 					case null, default -> GeckoLibConstants.LOGGER.warn("Unsupported geometry json version for model {}. Supported versions: 1.12.0", resource);
 				}
@@ -113,7 +113,7 @@ public final class GeckoLibCache {
 	private static <T> CompletableFuture<Void> loadResources(Executor executor, ResourceManager resourceManager,
 			String path, Function<ResourceLocation, T> loader, BiConsumer<ResourceLocation, T> map) {
 		return CompletableFuture.supplyAsync(
-				() -> resourceManager.listResources(path, fileName -> fileName.toString().endsWith(".json")), executor)
+				() -> resourceManager.listResources(path, fileName -> fileName.toString().endsWith(".json") || fileName.toString().endsWith(".myntmodel")), executor)
 				.thenApplyAsync(resources -> {
 					Map<ResourceLocation, CompletableFuture<T>> tasks = new Object2ObjectOpenHashMap<>();
 
