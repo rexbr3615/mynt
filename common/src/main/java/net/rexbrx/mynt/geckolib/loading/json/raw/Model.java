@@ -1,9 +1,7 @@
 package net.rexbrx.mynt.geckolib.loading.json.raw;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
+import com.google.gson.*;
+import com.google.gson.JsonDeserializationContext;
 import net.minecraft.util.GsonHelper;
 import org.jetbrains.annotations.Nullable;
 import net.rexbrx.mynt.geckolib.loading.json.FormatVersion;
@@ -21,10 +19,8 @@ public record Model(@Nullable FormatVersion formatVersion, MinecraftGeometry[] m
 			JsonObject obj = json.getAsJsonObject();
 			FormatVersion formatVersion = context.deserialize(obj.get("format_version"), FormatVersion.class);
 
-			MinecraftGeometry[] vanilla = JsonUtil.jsonArrayToObjectArray(
-					GsonHelper.getAsJsonArray(obj, VANILLA_KEY, new JsonArray(0)), context, MinecraftGeometry.class);
-			MinecraftGeometry[] custom = JsonUtil.jsonArrayToObjectArray(
-					GsonHelper.getAsJsonArray(obj, MYNT_KEY, new JsonArray(0)), context, MinecraftGeometry.class);
+			MinecraftGeometry[] vanilla = readGeometry(obj, VANILLA_KEY, context);
+			MinecraftGeometry[] custom = readGeometry(obj, MYNT_KEY, context);
 			//MinecraftGeometry[] minecraftGeometry = JsonUtil.jsonArrayToObjectArray(GsonHelper.getAsJsonArray(obj, "minecraft:geometry", new JsonArray(0)), context, MinecraftGeometry.class);
 
 			MinecraftGeometry[] all = new MinecraftGeometry[vanilla.length + custom.length];
@@ -35,5 +31,10 @@ public record Model(@Nullable FormatVersion formatVersion, MinecraftGeometry[] m
 
 			//return new Model(formatVersion, minecraftGeometry);
 		};
+	}
+
+	private static MinecraftGeometry[] readGeometry(JsonObject obj, String key, JsonDeserializationContext context) {
+		return JsonUtil.jsonArrayToObjectArray(
+				GsonHelper.getAsJsonArray(obj, key, new JsonArray(0)), context, MinecraftGeometry.class);
 	}
 }
