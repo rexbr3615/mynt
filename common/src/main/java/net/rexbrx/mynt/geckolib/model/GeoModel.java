@@ -109,7 +109,7 @@ public abstract class GeoModel<T extends GeoAnimatable> {
 		BakedGeoModel model = GeckoLibCache.getBakedModels().get(location);
 
 		if (model == null) {
-			if (!location.getPath().contains("geo/"))
+			if (!location.getPath().contains("mynt/abs/geometry/"))
 				throw GeckoLibConstants.exception(location, "Invalid model resource path provided - GeckoLib models must be placed in assets/<modid>/geo/");
 
 			throw GeckoLibConstants.exception(location, "Unable to find model");
@@ -158,7 +158,7 @@ public abstract class GeoModel<T extends GeoAnimatable> {
 		}
 
 		if (bakedAnimations == null) {
-			if (!location.getPath().contains("animations/"))
+			if (!location.getPath().contains("mynt/abs/animations/"))
 				throw GeckoLibConstants.exception(location, "Invalid animation resource path provided - GeckoLib animations must be placed in assets/<modid>/animations/");
 
 			throw GeckoLibConstants.exception(location, "Unable to find animation file.");

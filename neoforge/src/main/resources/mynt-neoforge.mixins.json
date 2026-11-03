@@ -8,7 +8,7 @@
     "neoforge.NeoForgeMobMixin"
   ],
   "client": [
-    "ModelBakeryMixin",
+    "neoforge.ModelBakeryMixin",
     "neoforge.AbstractClientPlayerMixin",
     "client.HumanoidArmorLayerMixin"
   ],
