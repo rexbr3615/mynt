@@ -103,13 +103,6 @@ public abstract class MixinParameterList<T> implements IExtendedParameterList<T>
     @Override
     public int getUniqueness(int x, int y, int z)
     {
-        if (this.uniqueness == null) {
-            if (this.newUniqueness != null) {
-                this.uniqueness = this.newUniqueness.get();
-            } else {
-                return 0; // Fallback seguro se não foi inicializado pelo TerraBlender
-            }
-        }
         return this.uniqueness.get(x, z);
     }
 
@@ -159,12 +152,7 @@ public abstract class MixinParameterList<T> implements IExtendedParameterList<T>
     @Override
     public Climate.ParameterList<T> clone() {
         try {
-            MixinParameterList<T> cloned = (MixinParameterList<T>) super.clone();
-            // Garante que o clone tenha sua própria instância de uniqueness se já foi inicializado
-            if (cloned.newUniqueness != null) {
-                cloned.uniqueness = cloned.newUniqueness.get();
-            }
-            return cloned;
+            return (Climate.ParameterList<T>) super.clone();
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
