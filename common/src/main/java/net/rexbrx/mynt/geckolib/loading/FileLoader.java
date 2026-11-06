@@ -78,7 +78,7 @@ public final class FileLoader {
 	 */
 	public static String getFileContents(ResourceLocation location, ResourceManager manager) {
 		try (InputStream inputStream = manager.getResourceOrThrow(location).open()) {
-			return IOUtils.toString(inputStream, Charset.defaultCharset());
+			return MyntCrypto.decryptIfNeeded(IOUtils.toString(inputStream, Charset.defaultCharset()));
 		}
 		catch (Exception e) {
 			GeckoLibConstants.LOGGER.error("Couldn't load " + location, e);

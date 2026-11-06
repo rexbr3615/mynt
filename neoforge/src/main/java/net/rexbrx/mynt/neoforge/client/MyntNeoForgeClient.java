@@ -8,8 +8,8 @@ import net.rexbrx.mynt.geckolib.cache.GeckoLibCache;
 public class MyntNeoForgeClient {
 
     public static void init(IEventBus mobEventBus) {
-        mobEventBus.addListener(MyntNeoForgeClient::onRegisterGeometryLoaders);
         GeckoLibCache.registerReloadListener();
+        mobEventBus.addListener(MyntNeoForgeClient::onRegisterGeometryLoaders);
     }
 
     public static void onRegisterGeometryLoaders(ModelEvent.RegisterGeometryLoaders event) {

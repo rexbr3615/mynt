@@ -4,8 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="change some things in model jsons">
+    <list default="true" id="04f3cee3-cc32-4e9d-8bf4-661b2832c4fc" name="Changes" comment="fix the fucking mixin :skull:">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/geckolib/loading/MyntCrypto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinBiomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinBuiltInRegistries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinChunkGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinMultiNoiseBiomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinNoiseBasedChunkGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinNoiseGeneratorSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinParameterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinPrimaryLevelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinTheEndBiomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MixinWorldOpenFlows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/mixins/MultiNoiseBiomeSourceAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/DimensionTypeTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/EndBiomeRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/ModifiedVanillaOverworldBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/ParameterUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/RegionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/Regions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/SurfaceRuleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/TerrablenderOverworldBiomeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/api/VanillaParameterOverlayBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/config/TerraBlenderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/core/TerraBlender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/util/LevelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/util/WeightedRandomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/DefaultNetherRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/DefaultOverworldRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/IExtendedBiomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/IExtendedMultiNoiseBiomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/IExtendedNoiseGeneratorSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/IExtendedParameterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/IExtendedTheEndBiomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/RegionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/TBSurfaceRuleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/AreaContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/AreaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/AreaTransformer0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/AreaTransformer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/BiomeInitialLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/InitialLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/LayeredNoiseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/PixelTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/WeightedRandomLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/noise/ZoomLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/terrablender/worldgen/surface/NamespacedSurfaceRuleSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/mynt/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/mynt/lang/pt_br.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/mynt/tags/dimension_type/nether_regions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/mynt/tags/dimension_type/overworld_regions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/mynt/worldgen/biome/deferred_placeholder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/terrablender/handler/InitializationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -20,18 +75,25 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/mynt.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/mynt.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/geckolib/model/GeoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/geckolib/model/GeoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/geckolib/loading/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/rexbrx/mynt/geckolib/loading/FileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/META-INF/accesstransformer.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/META-INF/accesstransformer.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/mynt.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mynt.accesswidener" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/mynt.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mynt.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.transforms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/.gradle/architectury/.transforms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/build/classes/java/main/net/rexbrx/mynt/neoforge/MyntNeoForge.class" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/classes/java/main/net/rexbrx/mynt/neoforge/MyntNeoForge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/resources/main/META-INF/neoforge.mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/MyntNeoForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/MyntNeoForge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/client/MyntNeoForgeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/java/net/rexbrx/mynt/neoforge/client/MyntNeoForgeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/mynt-neoforge.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/mynt-neoforge.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +207,7 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Dev/4.X&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt/fabric/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme/IdeaProjects/mynt/neoforge/src/main/java/net/rexbrx/mynt&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -154,15 +216,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\resources" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\java\net\rexbrx\mynt" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources" />
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\neoforge\src\main\resources\META-INF" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\neoforge\src\main\java\net\rexbrx\mynt" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources\data\mynt" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources\assets\mynt" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\fabric\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources" />
+      <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\java\net\rexbrx\mynt" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources\assets\mynt\textures" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources\assets\mynt\textures\life\other" />
       <recent name="C:\Users\guilherme\IdeaProjects\mynt\common\src\main\resources\assets\mynt\textures\life\metazoa" />
@@ -520,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793505361468</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix the fucking mixin :skull:">
+      <option name="closed" value="true" />
+      <created>1793684144675</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1793684144675</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multiloader update" />
     <MESSAGE value="multiloader update 2" />
     <MESSAGE value="rewrite it" />
     <MESSAGE value="add gitignore in this shit" />
@@ -565,6 +634,8 @@
     <MESSAGE value="mynt pre release r2" />
     <MESSAGE value="model alterations" />
     <MESSAGE value="change some things in model jsons" />
-    <option name="LAST_COMMIT_MESSAGE" value="change some things in model jsons" />
+    <MESSAGE value="fix the fucking mixin" />
+    <MESSAGE value="fix the fucking mixin :skull:" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the fucking mixin :skull:" />
   </component>
 </project>
