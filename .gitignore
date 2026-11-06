@@ -4,6 +4,8 @@ out
 *.iml
 *.idea
 
+common/src/main/java/net/rexbrx/mynt/geckolib/loading/
+MyntCrypto.java
 
 build
 .gradle
