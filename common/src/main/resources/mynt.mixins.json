@@ -13,17 +13,7 @@
     "TransientEntitySectionManagerMixin",
     "common.AbstractContainerMenuMixin",
     "common.ItemStackMixin",
-    "common.LivingEntityMixin",
-    "MixinBiomeSource",
-    "MixinBuiltInRegistries",
-    "MixinChunkGenerator",
-    "MixinMultiNoiseBiomeSource",
-    "MixinNoiseBasedChunkGenerator",
-    "MixinNoiseGeneratorSettings",
-    "MixinParameterList",
-    "MixinPrimaryLevelData",
-    "MixinTheEndBiomeSource",
-    "MultiNoiseBiomeSourceAccess"
+    "common.LivingEntityMixin"
   ],
   "client": [
     "ModelBakeryMixin",
