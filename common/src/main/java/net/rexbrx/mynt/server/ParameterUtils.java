@@ -15,7 +15,7 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-package terrablender.api;
+package net.rexbrx.mynt.server;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
@@ -211,13 +211,24 @@ public class ParameterUtils
      */
     public enum Temperature
     {
+        T_TUNDRA(Climate.Parameter.span(-1.0F, -0.15F)),
+        T_INTERMEDIARY(Climate.Parameter.span(-0.15F,0.15F)),
+        T_TEMPERATE(Climate.Parameter.span(0.15F,0.58F)),
+        T_TROPICS(Climate.Parameter.span(0.58F,0.78F)),
+        T_DESERTIFIED(Climate.Parameter.span(0.78F,1.0F)),
+        
         ICY(Climate.Parameter.span(-1.0F, -0.45F)),
         COOL(Climate.Parameter.span(-0.45F, -0.15F)),
+        
         NEUTRAL(Climate.Parameter.span(-0.15F, 0.2F)),
+        
         WARM(Climate.Parameter.span(0.2F, 0.55F)),
         HOT(Climate.Parameter.span(0.55F, 1.0F)),
+        
         FROZEN(Climate.Parameter.span(-1.0F, -0.45F)),
+        
         UNFROZEN(Climate.Parameter.span(-0.45F, 1.0F)),
+        
         FULL_RANGE(Climate.Parameter.span(-1.0F, 1.0F));
 
         private final Climate.Parameter parameter;
@@ -281,6 +292,7 @@ public class ParameterUtils
         MID_INLAND(Climate.Parameter.span(0.03F, 0.3F)),
         FAR_INLAND(Climate.Parameter.span(0.3F, 1.0F)),
         INLAND(Climate.Parameter.span(-0.11F, 0.55F)),
+        VERY_INLAND(Climate.Parameter.span(-0.03F, 0.93F)),
         FULL_RANGE(Climate.Parameter.span(-1.0F, 1.0F));
 
         private final Climate.Parameter parameter;
@@ -381,6 +393,9 @@ public class ParameterUtils
         MID_SLICE_VARIANT_DESCENDING(Climate.Parameter.span(0.93333334F, 1.0F)),
         FULL_RANGE(Climate.Parameter.span(-1.0F, 1.0F));
 
+
+        // ADD HERE
+        // N ASCENDING, N DESCENDING, V DESCENDING, V ASCENDING, BIG VALLEY, FULL DESCENDING, FULL ASCENDING
         private final Climate.Parameter parameter;
 
         Weirdness(Climate.Parameter parameter)
